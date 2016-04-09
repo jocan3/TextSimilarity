@@ -37,7 +37,6 @@ namespace TextMachineLearning
                         else {
                             vectorResult[j] = 1;
                         }
-                        
                     }
                 }
             }
