@@ -17,18 +17,6 @@ namespace TextMachineLearning
         [STAThread]
         static void Main()
         {
-            //Pruebas de Oscar 
-            //---------------------------------------------------
-            Console.WriteLine("Ramirez");
-            int[] bits = Word2Vec.Transform("Ramirez", true); // el segundo parametro es en caso de necesitar un treshold
-            Console.WriteLine("BITS");
-            Console.WriteLine("--------------");
-            for (int i = 0; i < bits.Length; i++) { 
-                Console.Write(bits[i]);
-            }
-            Console.WriteLine("");
-            Console.WriteLine("--------------");
-            //---------------------------------------------------
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

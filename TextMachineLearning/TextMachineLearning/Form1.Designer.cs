@@ -51,6 +51,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -239,28 +241,28 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(67, 317);
+            this.textBox5.Location = new System.Drawing.Point(48, 445);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(110, 20);
             this.textBox5.TabIndex = 17;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(195, 317);
+            this.textBox6.Location = new System.Drawing.Point(176, 445);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(124, 20);
             this.textBox6.TabIndex = 18;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(335, 317);
+            this.textBox7.Location = new System.Drawing.Point(316, 445);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(35, 20);
             this.textBox7.TabIndex = 19;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(391, 305);
+            this.button3.Location = new System.Drawing.Point(372, 433);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(68, 42);
             this.button3.TabIndex = 20;
@@ -271,17 +273,38 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(483, 320);
+            this.label8.Location = new System.Drawing.Point(464, 448);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(10, 13);
             this.label8.TabIndex = 21;
             this.label8.Text = "-";
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(31, 317);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(616, 110);
+            this.textBox8.TabIndex = 1;
+            this.textBox8.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Enabled = false;
+            this.label9.Location = new System.Drawing.Point(28, 296);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 13);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "Confusion Matrix";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 364);
+            this.ClientSize = new System.Drawing.Size(678, 522);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox7);
@@ -338,6 +361,8 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label9;
     }
 }
 

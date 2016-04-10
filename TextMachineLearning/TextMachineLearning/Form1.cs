@@ -10,6 +10,7 @@ using System.IO;
 using Microsoft.VisualBasic.FileIO;
 using Accord.MachineLearning;
 using Accord.Math;
+using Accord.Statistics.Analysis;
 
 namespace TextMachineLearning
 {
@@ -158,7 +159,7 @@ namespace TextMachineLearning
                         ++indexClass;
                     }
                     stringInputs.Add(GetString(fields));
-                    IntMatrixInputs.Add(Word2Vec.Transform(GetString(fields), false).ToList()); //getLettersVector.toList();
+                    IntMatrixInputs.Add(Word2Vec.Transform(GetString(fields), true).ToList()); //getLettersVector.toList();
                     IntOutputs.Add(classlist[fields[SelectedClass]]);
 
                     ++indexRows;
@@ -196,7 +197,6 @@ namespace TextMachineLearning
 
             textBox3.Text = "Processing";
 
-
             if (comboBox2.SelectedItem.ToString() == "Levenshtein")
             {
                 knnStr = new KNearestNeighbors<string>(k: Int32.Parse(textBox2.Text), classes: classlist.Count,
@@ -216,6 +216,12 @@ namespace TextMachineLearning
             int correctCount = 0;
             int wrongCount = 0;
 
+            List<int> expected = new List<int>();
+            List<int> predicted = new List<int>();
+
+            int positiveValue = 1;
+            int negativeValue = 0;
+            
             for (int i = 0; i < strInputsTest.Count; ++i) {
                 int answer;
                 if (comboBox2.SelectedItem.ToString() == "Levenshtein")
@@ -226,6 +232,10 @@ namespace TextMachineLearning
                 else {
                     answer = knn.Compute(IntInputsTest[i]);
                 }
+
+                expected.Add(outputsTest[i]);
+                predicted.Add(answer);
+
                 if (answer == outputsTest[i])
                 {
                     correctCount++;
@@ -236,9 +246,14 @@ namespace TextMachineLearning
 
             }
 
+            ConfusionMatrix matrix = new ConfusionMatrix(predicted.ToArray(), expected.ToArray(), positiveValue, negativeValue);
+
 
             textBox3.Text = DateTime.Now + " Completed    Number of instances: " + indexRows + "    Number of classes: " + classlist.Count;
             textBox3.Text += "   Correctly classified: " + correctCount + "   Wrongly classified: " + wrongCount;
+            textBox3.Text += "   Accuracy " + matrix.Accuracy;
+
+            paintMatrix(matrix);
            
             label8.Text = "-";
         }
@@ -257,8 +272,25 @@ namespace TextMachineLearning
             }
 
             label8.Text = inverseClassList[answer];
-        }    
-    
+        }
+
+        private void paintMatrix(ConfusionMatrix matrix) 
+        {
+            
+            
+            /*for (int i = 0; i < matrix.Matrix.Length; i++) 
+            {
+                for (int j = 0; j < matrix.Matrix.Length; j++)
+                {
+                    textBox8.Text += matrix.Matrix[i, j] + ",  ";
+                }
+                textBox8.Text += "  ** NEW LINE ** "; 
+            }*/
+            textBox8.Text = matrix.Matrix.Length.ToString() + "  -  ";
+            textBox8.Text += matrix.Matrix.LongLength.ToString() + "  -  ";
+            textBox8.Text += matrix.ToString();
+        }
+
     }
 }
 
