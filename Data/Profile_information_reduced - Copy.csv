@@ -144,7 +144,7 @@ USA,Jose ,Mata,13
 USA,Maude,Meyers,15
 IND,Rishi,Saxena,2
 FIN,Bimal,Shrestha,4
-BRA,Jos√©,Calazans J√∫nior,17
+BRA,JosÈ,Calazans J˙nior,17
 IND,Nishitha,Jaji,3
 USA,Robert,King,14
 GBR,Sandhya,Jaiswal,9
@@ -253,7 +253,7 @@ IND,Solamon,Jayaraj,9
 USA,Jeffrey,Marlin,15
 CRI,Warren,Ramirez,15
 USA,Muhannad,Mustafa,11
-POL,Pawe≈Ç,Cie≈õla,18
+POL,Pawel,Ciesla,18
 USA,Seungjae,Baek,20
 MEX,Kenny Andre,Chan Ramirez,12
 CRI,Sophia,Salazar Cavallini,13
@@ -350,7 +350,7 @@ ITA,Domenico,Lategano,21
 CRI,Ricardo,Almendares Solis,0
 USA,Scott,Federowicz,10
 USA,Ling,Cheung,17
-USA,David,Ch√°vez,0
+USA,David,Ch·vez,0
 USA,Najim,Assefi,11
 USA,Weichang,Li,14
 IND,Sandeep,S,22
@@ -361,7 +361,7 @@ USA,Bi,Wu,2
 USA,Anirban,Chatterjee,19
 USA,Gideon,Aina,21
 USA,Hanchen,Li,20
-POL,Pawe≈Ç,Adamowicz,6
+POL,Pawel,Adamowicz,6
 IND,Revathi,U,12
 USA,Kai,Wang,11
 USA,Jasmine,Burch,21
@@ -379,7 +379,7 @@ USA,Stacy,Nelsen,19
 USA,Santhanaraman,Ganesh,15
 USA,Branden,Tolle,11
 USA,Duan Wei,Lin,12
-MEX,Benjam√≠n,Contreras,13
+MEX,BenjamÌn,Contreras,13
 USA,Alain,Teil,13
 USA,Ashley,Willard,8
 USA,Stephen,Dunker,19
@@ -466,7 +466,7 @@ IND,Meer,Saifuddin,7
 FRA,Pierre-Yves,Gueniffey,6
 FRA,Sahil,Bharal,12
 USA,Kumar,Singarapu,19
-MEX,Enrique,Martin del Campo Hern√°ndez,13
+MEX,Enrique,Martin del Campo Hern·ndez,13
 USA,Jarvis,McGee,16
 IND,Vibhor,Mathur,8
 USA,Michael,Farley,15
@@ -589,7 +589,7 @@ USA,Neha,Singh,20
 ROU,Mihail,Dunaev,4
 IND,Uttam Kumar,E,9
 USA,Lisa,Wang,2
-IRL,Bolivar,Rowl√≠s,15
+IRL,Bolivar,RowlÌs,15
 IND,Harish,Moahanani,13
 IND,pooja,lika,5
 USA,Rakesh,Vasudevan,17
@@ -603,7 +603,7 @@ TUR,ONUR,YAZGAN,15
 ROU,Andrei Octavian Silviu,Neagu,19
 EGY,Hend,Ahmed Elrefaey Elhakmey,18
 USA,Anthony,Brown,19
-ARG,Gast√≥n,Tonietti,10
+ARG,GastÛn,Tonietti,10
 IND,Vignesh,Periasami,14
 USA,Mark,Hofheins,18
 ISR,Michal,Cohen,13
@@ -637,7 +637,7 @@ IND,Saniya,Anand,11
 IND,Manjit,Shetty,3
 IND,Atif,Sheikh,2
 IND,Punit,Kanuga,5
-TUR,SEFA,√ñZT√úRK,20
+TUR,SEFA,÷ZT‹RK,20
 USA,Cameron,Tang,7
 ISR,Ariel,Zaks,12
 ISR,Golan,Manor,12
@@ -659,7 +659,7 @@ USA,Amr,Zaky,4
 USA,Roni,Carroll,19
 IND,N,Mohan,20
 USA,Patrick,Tran,13
-CRI,Luis,Chavarr√≠a,7
+CRI,Luis,ChavarrÌa,7
 ISR,Orit,Ben Shoshan,6
 USA,Ronza,Lisoun,1
 USA,Manjula,Jayasekara,1
@@ -678,7 +678,7 @@ ISR,Vitaliy,Semenko,8
 ISR,Amos,Agmon,6
 IND,M,MOHANKUMAR,11
 MYS,Mohammad,Bin Mordani,1
-HUN,Bal√°zs,Beke,12
+HUN,Bal·zs,Beke,12
 IRL,Gerard,Gavin,12
 USA,David,Dail,21
 IND,N.,Kumar,21
@@ -689,7 +689,7 @@ USA,Prithi,Pichai,22
 IND,gangatharan,kannaiyan,22
 IND,Devika,Saraswat,3
 USA,Sunil,Dadlani,13
-CRI,Diego,Rojas Vel√°squez,14
+CRI,Diego,Rojas Vel·squez,14
 IND,NISHIL,AM,9
 USA,Raunak,Jadhav,16
 IND,Bhaskar,Chaudhary,17
@@ -727,7 +727,7 @@ USA,Nagasri,Kollipara,22
 USA,Wen ,Pan,22
 USA,Tejas,Dandiganahalli Channappa,20
 USA,Ai,Onda,12
-CRI,Fabiana,Rojas Cede√±o,10
+CRI,Fabiana,Rojas CedeÒo,10
 USA,Dodd,McDonnell,6
 USA,Joseph,Greef,15
 ISR,Merav,Zur,6
@@ -738,7 +738,7 @@ IND,Sriram,Subramanian,1
 USA,Kristin,Boden-MacKay,5
 USA,Jayprakash,Patel,15
 USA,Joe,Chen,15
-IRL,Krzysztof,Ko≈Çdras,7
+IRL,Krzysztof,Koldras,7
 IND,Shivani,Garg,15
 IND,Computer Science,B.Tech,10
 USA,Laxmi Harshitha,Patha,15
@@ -804,7 +804,7 @@ IND,Chaitanya,Jathar,5
 BRA,Paola,Sales,14
 ISR,Tomer,Bashan,15
 USA,AKM,Islam,16
-BRA,Wendy,Vallejo V√°squez,6
+BRA,Wendy,Vallejo V·squez,6
 USA,Timothy,Wong,15
 IND,Kumar,Vishal,9
 USA,Christophe,Rialan,15
@@ -821,7 +821,7 @@ MYS,Iman Mukhlis Syabet,Ismail,10
 FIN,Diem,Ly,7
 USA,Brent,Read,19
 USA,Vyom,Joshi,23
-MEX,Rub√©n,Mosqueda,12
+MEX,RubÈn,Mosqueda,12
 USA,Mayan,Fogarty,18
 USA,Jatin,Gupta,19
 USA,Michael,Kowalski,13
@@ -880,7 +880,7 @@ IND,ASHUTOSH,KUMAR,11
 THA,Sam,Lee,1
 RUS,Alexander,Razinkov,13
 PAK,Haseeb,Rehman,9
-MEX,Fernando Enrique,Avenda√±o Hernandez,21
+MEX,Fernando Enrique,AvendaÒo Hernandez,21
 USA,Chenchen,Wang,15
 ISR,Roi,Broner,5
 IND,Prem,Narayankar,5
@@ -914,7 +914,7 @@ EGY,Mahmoud,Hassan Abd El-Mohsen Ayoub,19
 ISR,Ester,Shlomo,4
 USA,Maryam,Ziaei-Moayyed,18
 USA,Sohaib,Akhter,22
-FRA,Chlo√©,Osina,12
+FRA,ChloÈ,Osina,12
 USA,Eddy,Morales,21
 USA,Athena,Floro,1
 USA,Rachita,Agasthy,15
@@ -922,7 +922,7 @@ USA,Dakota,Smith,15
 USA,Shantanu,Dev,15
 USA,Michael,Lehmann,13
 USA,Frances,Tao,15
-USA,Alexander,F√©lix,21
+USA,Alexander,FÈlix,21
 IND,Deval,Bhamare,1
 USA,Jennifer,Taylor,12
 ISR,Pavel,Ostapenko,9
@@ -972,7 +972,7 @@ USA,Ye,Zhang,0
 USA,Glenston,Miranda,15
 USA,Sandeep reddy,Goli,16
 USA,Kushagra,Garg,17
-MEX,Andr√©s,Ram√≠rez Palacios,9
+MEX,AndrÈs,RamÌrez Palacios,9
 USA,Sung Nam,Hwang,1
 USA,Justin,Blank,18
 USA,Mukhdeep,Benipal,22
@@ -992,7 +992,7 @@ IND,Bhawna,Chaurasia,1
 ISR,Guy,Yarhi,14
 USA,Seema,Sutaria,14
 IRL,Cheng,Bo,8
-POL,Jakub,Go≈Çƒôbiewski,5
+POL,Jakub,Golebiewski,5
 IRL,Amana,Butt,6
 PHL,regine,redilla,3
 USA,Jordan,Hagen,9
@@ -1079,7 +1079,7 @@ IND,Sayan,Pal,10
 IDN,Cristian ,Sipahutar,9
 FIN,Ville,Pekkanen,16
 USA,Robert,Laughman,23
-CRI,Marcela,S√°nchez Hidalgo,18
+CRI,Marcela,S·nchez Hidalgo,18
 USA,Divya,Seshadri,0
 USA,Larry,Dalla Mura,10
 USA,Arijit,Sarkar,19
@@ -1087,10 +1087,10 @@ USA,Pranjal,Saikia,14
 USA,kathy,wei,17
 ISR,Avi,Gershom,8
 IRL,Elianny,Arias,15
-CHN,Âßì,Âêç,3
+CHN,?,?,3
 IND,TUSHAR,BEDVA,15
 CMR,Kema,Gift,7
-TUR,ƒ∞lknur,Yƒ±ldƒ±rƒ±m,14
+TUR,Ilknur,Yildirim,14
 USA,Anil,Balivada,15
 USA,Yin-Chieh,Wang,14
 ISR,Oren,Mandel,6
@@ -1122,11 +1122,11 @@ BRA,Roberto,Potenza,13
 IND,Kothapalli,Neeraja,10
 IND,Vaibhav,Jain,23
 USA,Patti,Winstead,13
-DEU,Peter,W√§chter,9
+DEU,Peter,W‰chter,9
 FRA,Swapnil,Konkati,5
 IND,Bijoy,P,8
 USA,Shivtej,Saripudi,0
-ESP,Daniel,Rold√°n,13
+ESP,Daniel,Rold·n,13
 USA,Christopher,Walker,23
 USA,Daniel,Landau,20
 IND,Swathi,Kamarthi,13
@@ -1230,7 +1230,7 @@ USA,Ahmed,Alamin,21
 IND,Saurabh,Chatterjee,14
 IND,Amith,Ballolli,15
 IND,PRADEEBA,V,8
-MEX,Jos√©,√Åvila,12
+MEX,JosÈ,¡vila,12
 CAN,David,Chiu,12
 IND,Vishnu,Vaishnav,12
 USA,William,Stathis,19
@@ -1331,7 +1331,7 @@ CRI,Mario,Arias,11
 USA,Aishwarya,Karumanchi,10
 TWN,Regis,Hsu,9
 MYS,Madhubabu,Madineni,20
-BRA,Felipe,De Ara√∫jo,10
+BRA,Felipe,De Ara˙jo,10
 IND,Sugandh,Kumar,2
 IRL,Geoffrey,Mullen,3
 USA,Ronak,Jethwa,22
@@ -1352,7 +1352,7 @@ USA,Jerry,Mannil,9
 BGR,Iavor,Halianov,10
 IND,NIRUPAM,JANA,11
 USA,Richard,Chella,12
-ARG,Nicol√°s,Leguizam√≥n,15
+ARG,Nicol·s,LeguizamÛn,15
 USA,XU,ZUO,16
 PHL,Cherrymae,Tecson,18
 FIN,Khalid,Latif,18
@@ -1383,14 +1383,14 @@ USA,sandeep,kondaveeti,11
 USA,Michael,Crum,12
 IND,Debarati,Nandi,14
 MEX,Jose Manuel,Mora,18
-VNM,Nguy·ªÖn,Minh,8
+VNM,Nguy?n,Minh,8
 USA,Bruce,Stelmar,22
 USA,Chadwick,Church,14
 USA,Joseph,Sherwood,0
 IND,Kapil,Jain,13
 USA,Blake,DeMars,15
 USA,Jawahar,Chiluveru,4
-MEX,Ra√∫l,S√°inz Trujillo,10
+MEX,Ra˙l,S·inz Trujillo,10
 IND,Arasavilli,Kishore,12
 IND,Ajit,Kulkarni,4
 FRA,Raphael,Clauss,5
@@ -1424,7 +1424,7 @@ USA,Matthew,Berry,21
 USA,Anshuman,Krishna,23
 DEU,Peter,Bonting,13
 IND,rahul,sonani,5
-HUN,Tam√°s,Fekete,15
+HUN,Tam·s,Fekete,15
 IND,Vikas,J,1
 BRA,Thiely,Caroline,0
 CHN,xueqing,liu,4
@@ -1438,7 +1438,7 @@ MYS,Mohd Nizamuddin , Noorazmi,4
 ISR,Gil,Kalish,6
 IND,Maqdoom,M,2
 IND,Komal,Shah,5
-ARG,Germ√°n David,D√≠az,12
+ARG,Germ·n David,DÌaz,12
 IND,Buddabathini,Santhi,11
 IND,Ishan,Arora,12
 ISR,Viktoria,Tigaev,8
@@ -1498,7 +1498,7 @@ ISR,Haim,Mechel,9
 DEU,Katharina,Rehmet,22
 ISR,Gur,Stavi,15
 USA,William,Bowen,18
-VNM,Nguy·ªÖn, Thanh L√¢m,13
+VNM,Nguy?n, Thanh L‚m,13
 USA,Xiangzhou,xia,15
 USA,Sam,Zhang,12
 CHN,xiangfeng,li,5
@@ -1528,7 +1528,7 @@ IND,Pallavi,Nagaraj,3
 BRA,Roberto,Dozol Machado,1
 IND,LalithaCharanaPrasad,Vanukuri,6
 ITA,Lorenzo,De Paolis,8
-VNM,H·ªì,Minh,4
+VNM,H?,Minh,4
 IND,Praveen,Nindujarla,6
 ISR,Anais,Vaknin,2
 IND,Nayak,Prafullbhai,2
@@ -1541,7 +1541,7 @@ SAU,Nashat,Ghazi,6
 USA,Muthu,Selvan,7
 SAU,Ibrahim,Albathi,5
 MEX,Mario,Carrillo Ayala,19
-FIN,Riitta,H√§nninen,8
+FIN,Riitta,H‰nninen,8
 IND,Dharmendra,Mishra,8
 IND,Tarun,Jain,7
 USA,Brian,Miklos,20
@@ -1573,7 +1573,7 @@ SWE,anjum,javed,18
 POL,Adam,Trzmiel,13
 IND,SHEELA, c,11
 USA,Zsolt,Jenei,0
-USA,Fran√ßois,Aguet,0
+USA,FranÁois,Aguet,0
 IND,Soumen,Bhattacharya,7
 ISR,Alona,Korzhnev,2
 IND,Pratik,Nanda,9
@@ -1586,7 +1586,7 @@ USA,Ola,Sojobi,20
 CHN,Shi,LU,23
 IND,Shriya,Laxminarayan,2
 DEU,Umar,Siddiqui,6
-POL,≈Åukasz,Klamann,6
+POL,Lukasz,Klamann,6
 ISR,Evgeny,Lebed,16
 IND,Kumari,Sweta,2
 IND,Ashiyana,Arora,23
@@ -1658,10 +1658,10 @@ MYS,Siew Kong,Ng,10
 IND,Lovkesh,Chauhan,2
 IND,Pranav,Peethambaran,2
 IND,Ankita,Shrivastava,14
-COL,Nicol√°s,Galvis,12
+COL,Nicol·s,Galvis,12
 USA,Kelly,Machenry,12
 USA,Thomas,Egan,18
-SVK,Bc,Kraj≈àak,8
+SVK,Bc,Krajnak,8
 USA,Brent,Steele,21
 IND,Kalyan,Ghosh,0
 USA,David,Wang,2
@@ -1669,7 +1669,7 @@ MEX,Oscar Reynaldo,Flores Jimenez,17
 IND,karpaham,palaniswamy,4
 MEX,miguel,marrtinez,16
 IND,Mayura,Dastane,2
-MEX,Antonio,D√≠az,12
+MEX,Antonio,DÌaz,12
 IND,Buvanasivaguru,Shanmugam,2
 IND,P,Pradeep,10
 ARG,Rodrigo,Maspero,9
@@ -1705,7 +1705,7 @@ USA,Melony,Burnom,10
 IND,Arpit,Jain,11
 IND,Hanumanthaiah,R,14
 USA,Lauren,Dagostino,20
-MEX,Jos√©,I√±iguez V√°zquez,13
+MEX,JosÈ,IÒiguez V·zquez,13
 ARG,Catalina,Dapena Garay,9
 ARG,Camila,Castro,9
 VNM,Trong,Thuyet,2
@@ -1717,7 +1717,7 @@ MYS,KB,Devaraj,9
 USA,Richard,Patston,16
 IND,Gautam,Sarma,5
 IND,Shiva,Vullengala,22
-DEU,Bj√∂rn-Kevin,Kemnitzer,3
+DEU,Bjˆrn-Kevin,Kemnitzer,3
 USA,Norm,Perreault,13
 ITA,Kavitha,Thumu,13
 ARG,Francisco,Gasso,14
@@ -1727,14 +1727,14 @@ IND,Arvind,Thimmaiah,5
 IND,JAYAKRISHNAN,V B,9
 IND,Sivalingam,Vimal,8
 IND,KUMAR,MOHANISH,10
-ESP,Lara,L√≥pez P√©rez,16
+ESP,Lara,LÛpez PÈrez,16
 IND,Shobhit,Agrawal,5
 IND,Arunkumar,S,6
-POL,Tomasz,Jask√≥lski,19
+POL,Tomasz,JaskÛlski,19
 IND,Avinash,Gautam,13
 SWE,Josefin,Persson,14
 USA,Julie,McIntire,18
-ESP,V√≠ctor,Zabalegui,7
+ESP,VÌctor,Zabalegui,7
 IND,Sudeep,Tiwari,8
 USA,Christopher,Hurley,14
 USA,Paul,Brandt,21
@@ -1777,7 +1777,7 @@ IND,Disha,Sarveshkumar Gupta,7
 IND,Mahesh,Patil,7
 IND,Shashi ,Ranjan,5
 IND,DARSHAN,BAGADIYA,3
-MEX,Gustavo,S√°nchez,11
+MEX,Gustavo,S·nchez,11
 USA,Cooper,Stevenson,13
 IND,Rishabh,Ranjan,16
 USA,Lanaya,Stoller,17
@@ -1882,7 +1882,7 @@ GBR,Arvind,Cletus,7
 ISR,Ziv,Shavit,5
 ISR,Noam,Madar,5
 DEU,Marina,Kinschel,6
-USA,◊ê◊ë◊ô,◊í'◊ê◊ü,6
+USA,???,?'??,6
 ISR,Tsahi,Liberman,6
 IND,Vipin,Bansal,1
 USA,Umashankar,Pathak,20
@@ -1906,7 +1906,7 @@ IND,didar,singh,11
 USA,Genavina,Mabary,17
 USA,Julio,Santana,21
 USA,Adam,Jaycox,22
-BRA,Jo√£o,Mesquita Gomes Da Silva,12
+BRA,Jo„o,Mesquita Gomes Da Silva,12
 NGA,Oluwadamilola,Aremu,6
 USA,Kirill,Zhukov,5
 IND,Dilip,Bhambhani,5
@@ -1939,8 +1939,8 @@ IND,Ratnesh,Singh,6
 DEU,Argishti,Melikyan,6
 MYS,Shu San,Low,20
 IND,Jacinth,Varughese,4
-CRI,C√©sar,L√≥pez,14
-ESP,Kenny,Mart√≠n Rodr√≠guez,15
+CRI,CÈsar,LÛpez,14
+ESP,Kenny,MartÌn RodrÌguez,15
 IND,V.A,Banupriya,15
 IND,Varun ,Varun ,8
 ISR,Neta,Cohen,8
@@ -1963,10 +1963,10 @@ IND,Sinjini,Pal,4
 IND,Vandana,Kumari,4
 USA,Oleksandr,Savchyn,16
 USA,Peter,Armans,16
-ESP,Miguel,Mart√≠n-Nieto,9
+ESP,Miguel,MartÌn-Nieto,9
 NGA,Ayodeji,Kareem,9
 IND,Aman,Tiwari,10
-MEX,H√©ctor,Munoz-Herrera,10
+MEX,HÈctor,Munoz-Herrera,10
 IND,Ashish,Khatri,11
 USA,Andy,Williams,23
 IND,David,Hyames,11
@@ -2015,7 +2015,7 @@ USA,ling ling ,Wong,15
 CRI,Luis,Calvo,18
 USA,Zachary,Griffey,19
 USA,Todd,Hall,20
-TUR,Mithat,Ata√ß,6
+TUR,Mithat,AtaÁ,6
 IND,Sivaranjani,Vijayakumar,14
 USA,Stefanie,Lucas,22
 IND,Naga Alekhya,Kypa,12
@@ -2049,7 +2049,7 @@ ISR,Racheli,Mishan,7
 CHN,Yuezhen,Xiao,7
 USA,Michael,Flath,23
 IND,Pooja,Karale,23
-BRA,F√°bio,Ferreira Hashimoto,11
+BRA,F·bio,Ferreira Hashimoto,11
 USA,Suryanto,Leonardi,9
 GBR,Michalis,Katalanos,19
 MYS,NUR AWATIF,AHMAD,3
@@ -2100,7 +2100,7 @@ USA,Christopher,Workman,19
 USA,David,Murrell,9
 CHN,YuanYuan,Wu,8
 PRK,Daniel,Kim,10
-POL,Ren√°n,Crespo Yapur,11
+POL,Ren·n,Crespo Yapur,11
 IND,Vikas,Gundewar,5
 IND,Sathish,Rajendran,4
 IND,Sebi,John,6
@@ -2135,19 +2135,19 @@ USA,Julie,Fleming,0
 DEU,Elias,Toivanen,11
 ISR,Yaniv,Vaydgorin,4
 USA,Cecilia,Lyon,13
-MEX,Roberto,Ontiveros V√°zquez,13
+MEX,Roberto,Ontiveros V·zquez,13
 USA,Zuhir,Tanous,13
 TWN,Tze,Hsuan   Chou,12
 USA,Kim,Hardee,12
 USA,Dimitri,Metri,13
 USA,Eric,Pena,1
 IND,Radhashree,Yarashi,4
-POL,Krzysztof,DƒÖbrowski,7
+POL,Krzysztof,Dabrowski,7
 IND,Abuthahir,K,7
 FRA,Yulia,Kostenko,13
 IND,Vikram,Chugh,16
 USA,Albert,Peck,14
-PER,Claudia,Garc√≠a C√°rdenas,20
+PER,Claudia,GarcÌa C·rdenas,20
 IND,Saravanan,Nanthakumar,2
 USA,Ralph,Kam,2
 IND,N.  K.,Yokesh,3
@@ -2165,7 +2165,7 @@ USA,Joni,Ornelas,15
 USA,Jose,Lopez,15
 IND,Dibyendu,Saha,16
 TWN,Calvin,Chu,23
-MEX,Gerardo,Mart√≠nez Gil,14
+MEX,Gerardo,MartÌnez Gil,14
 USA,Christopher,Kiel,21
 IND,Snedden ,Fernandes ,2
 SAU,Janmejay,Nayak,2
@@ -2176,14 +2176,14 @@ USA,Chad,Lackey,18
 USA,Hannah,Nguyen,0
 IND,Nagelly,Arunkumar,1
 USA,Patrick,Johnson,20
-MEX,Miguel √Ångel ,Higuera Reyes,11
+MEX,Miguel ¡ngel ,Higuera Reyes,11
 IND,Patel,Dineshkumar,7
 ARG,Ailin,D'Aquila Anllo,19
 USA,Steven ,Klankowski,20
 FIN,Jonne,Riekki,3
 DEU,Christian,Simonis,12
 IND,K.,Raja,13
-ESP,Jordi,Castro Barbar√°,2
+ESP,Jordi,Castro Barbar·,2
 USA,Abhishek,Trigunayat,3
 USA,Austin ,Merlo,1
 USA,Joseph john praveen,Rajakumar,5
@@ -2212,7 +2212,7 @@ CHN,Pei,Zhang,6
 AUS,Boran,Jia,3
 IND,Gurusamy,V,0
 IND,B,Kiran,3
-ISR,◊ê◊ï◊®◊ü,◊¢◊ï◊ë◊ì◊ô◊î,2
+ISR,????,??????,2
 IND,Sruthi,Kambhampati,8
 IND,M.,Saranya,5
 IND,CHEMMANDI,NADHAMUNI,5
@@ -2237,7 +2237,7 @@ KOR,JUN-KWON,JEE,0
 TWN,Roger,Chen,0
 USA,Ying,Geng,0
 CHN,Shuyu,Chen,0
-USA,H√©ctor,Garc√≠a,19
+USA,HÈctor,GarcÌa,19
 IND,JIGNESH ,VORA,3
 IND,Swarup,Roy Chowdhury,8
 IND,Prasenjit,Nandi,10
@@ -2305,7 +2305,7 @@ BRA,Pedro,Gonzales Culque,18
 USA,Dustin,Eyers,14
 IND,Ambuj,Gupta,8
 USA,Skandakumar,Balasunderam,20
-FRA,Fran√ßois,Pierrard,9
+FRA,FranÁois,Pierrard,9
 USA,Mehrdad,Rasanani,19
 ISR,Leora,Friedman,3
 IND,Mayank,Mittal,3
@@ -2367,11 +2367,11 @@ USA,Gabriel,Michaud-Verreault,1
 IND,Upendra,Tiwari,2
 IND,Neeraj,Girdhar,11
 IND,chandra,kant,13
-CHL,Luis,Marim√°n,16
+CHL,Luis,Marim·n,16
 ISR,YOAV,HITMAN,2
 USA,Pratibha,Satishkumar,12
 TUR,Semih,Uzun,7
-POL,Marek,W√≥jcik,14
+POL,Marek,WÛjcik,14
 USA,Monika,Gorkani,18
 IND,Rishabh,Jain,2
 RUS,Alexei,Kolesnov,7
@@ -2451,7 +2451,7 @@ IND,Rajasekar,Venu,12
 IND,Dharit,Shah,1
 ISR,Mor,Borenshtain,11
 IND,Deepthi,Pradeep,9
-CRI,Luis,Jim√©nez,1
+CRI,Luis,JimÈnez,1
 IND,Nirja,Sindhav,1
 IND,Aditya,Rami Reddy Venumbaka,7
 ISR,Rivki,Zonshein,6
@@ -2488,7 +2488,7 @@ IND,K,Vipin,22
 USA,Archit ,Gupta,22
 USA,Jason,Chen,23
 IRL,Robert,Moore,18
-VNM,Hi·ªáu,Hu·ª≥nh,12
+VNM,Hi?u,Hu?nh,12
 USA,David,Medley,11
 IND,Mahantesh,Kamat,6
 IND,Karthik,Naidu,14
@@ -2532,7 +2532,7 @@ MYS,Tuan Nurul Fitri,Tuan Azmi,2
 IND,Govind,Kumar,12
 IND,Manish,Kumar,0
 CRI,Juan Manuel,Lobo Silva,1
-DEU,Hizir,Erent√ºrk,10
+DEU,Hizir,Erent¸rk,10
 ZAF,James,Mtimunye,14
 IND,Priyanka,Nanda,10
 IND,Ambika ,Prasad,3
@@ -2541,7 +2541,7 @@ IND,M,Kalpana,2
 IND,Sisira,Sasidharan,1
 DEU,Moath,Ibrahim Qasim,9
 PHL,Rico Paolo,Garcia,2
-MEX,Alejandro,G√ºere√±a Mor√°n,11
+MEX,Alejandro,G¸ereÒa Mor·n,11
 IND,Ravindra,Maddumala,4
 USA,Jesjit,Birak,15
 USA,Rajesh,Vasu,9
@@ -2567,7 +2567,7 @@ USA,Adam,Girardi,15
 ISR,Yivgeni,Klayokin,2
 VNM,Nguyen,Long,3
 IND,Kashyap, Desai,4
-ESP,Alejandro,G√≥mez Mu√±oz,6
+ESP,Alejandro,GÛmez MuÒoz,6
 IND,Vishal,Gaikwad,0
 ISR,Bar,Yehudai,6
 POL,Adam,Peszka,14
@@ -2622,9 +2622,9 @@ ISR,Yaacov,Shneor,5
 ISR,LIHI,IDAN,5
 USA,BRENT,BROOKS,23
 ISR,Itay,Azizi,1
-MNE,Marko,Bo≈æoviƒá,16
+MNE,Marko,Boûovic,16
 ISR,Anton,Galperin,8
-TUR,Serkan,√úNL√ú,9
+TUR,Serkan,‹NL‹,9
 MYS,Chen Pin,Tan,9
 ISR,keren,shahaf,8
 CHN,Yongxin,Liu,13
@@ -2661,7 +2661,7 @@ JPN,Susumu,Yamanka,1
 IND,Saji,Nair,3
 ISR,Beary,Fluss,8
 ZAF,William,Theron,5
-TUR,Yasemin,T√ºrkarslan,6
+TUR,Yasemin,T¸rkarslan,6
 USA,Eli,Oleksiak,15
 TUR,Naz,Mol,16
 USA,Diez,Suantio,20
@@ -2711,7 +2711,7 @@ IND,Santosh,Yaraganavi,2
 IND,Shourjyo,Chatterjee,10
 ISR,Oran,Ben-Gal,5
 USA,Davorin,Fundak,3
-MEX,Brian,Hern√°ndez Mart√≠nez,10
+MEX,Brian,Hern·ndez MartÌnez,10
 USA,Brad,Neuhoff,13
 USA,Jeff,Baelly,12
 USA,Michael,Gilmore,16
@@ -2760,7 +2760,7 @@ USA,Alwin,Neidig,3
 IND,saravanakumar,madhaiyan,0
 IND,SANJAY,PIPALIYA,10
 CRI,Sergio,MAdrigal,23
-POL,Bart≈Çomiej,Lewandowski,10
+POL,Bartlomiej,Lewandowski,10
 TUR,Kubilay,Kahraman,11
 USA,Na,Sai,12
 USA,William,Horan,12
@@ -2777,7 +2777,7 @@ IND,Sneha,Tripuraneni,6
 USA,Alan,Davis,19
 IND,Sonu,Kumar,7
 ISR,yaron,meiri,7
-DEU,Carlos Eduardo,Montoya S√°nchez,9
+DEU,Carlos Eduardo,Montoya S·nchez,9
 SVN,Vladimir,Furlan,3
 USA,Carl,Meier,7
 MAR,Sara,Benktib,0
@@ -2794,7 +2794,7 @@ IND,S,Balakrishna,1
 IND,NATARAJAN,CHANDRASEKAR,7
 ITA,Domenico,Magno,9
 USA,Jianwen,Hu,12
-ESP,Guillermo,Mari√±as,8
+ESP,Guillermo,MariÒas,8
 USA,Preetham,Pawar,17
 IND,sri ,siddireddi,10
 USA,Jose,Escobar,18
@@ -2964,7 +2964,7 @@ SGP,Kedar,Dharmadhikari,4
 IND,Vikram,Arkalgud Chandrasetty,5
 IND,Nitin,Vaishwade,6
 IND,Puneeth,Kumar,6
-CHN,Ëãè,‰ºØÊ≠¶,22
+CHN,?,??,22
 USA,Krista,Michalski,22
 MEX,Marco,Villacorta Tello,1
 MYS,Mr,MBIBI PHILIP,11
@@ -2979,7 +2979,7 @@ ISR,Batya,Perlman,3
 BRA,Denis,Da Silva,4
 IRL,Victor,Gannon,15
 IND,PAYAL,XYZ,6
-TUR,ƒ∞smail Oƒüuz,Karatay,6
+TUR,Ismail Oguz,Karatay,6
 NGA,Aromolaran,Ayodeji,6
 IND,Krishna ,Kurakula ,7
 IND,Arka ,Mitra ,8
@@ -3012,7 +3012,7 @@ USA,Steven,Donlin,13
 USA,Arturo,Zuniga,19
 USA,Brian,Rothenberg,21
 IND,Akash,Kuratkar,1
-MEX,Erik,Martinez Roque√±i,13
+MEX,Erik,Martinez RoqueÒi,13
 GRC,Konstantinos,Stavridis,17
 MEX,Fabian,Martin del Campo,20
 USA,William,Heid,0
@@ -3020,7 +3020,7 @@ USA,Erika,Wainman,15
 USA,Dongling,Pan,16
 USA,Pierre,Mendez,19
 USA,Ishmeet,Grewal,21
-CHN,ÂæêÊº´Ê∂õ,Xu,7
+CHN,???,Xu,7
 IND,Mithun,Rathinasamy,23
 USA,Casy,Philavong,0
 IND,A.,Brindo,2
@@ -3079,7 +3079,7 @@ IRL,Aaron,Glennon,8
 ISR,Shmuel,Milavski,7
 GBR,Rihard,Baffoe-Djan,5
 USA,Yudy,Chen,23
-COL,Cesar,Arias N√∫√±ez,10
+COL,Cesar,Arias N˙Òez,10
 IND,Soshal,Chatwal,5
 USA,Shruti,Koparkar,14
 IND,ram,e,7
@@ -3088,7 +3088,7 @@ USA,Ram Reddy,Ankuri,16
 IND,Abhignan,Pyaraka,10
 USA,Jyotsna,Jha,20
 ISR,Yosi,Mitzrachi,4
-BRA,Const√¢ncio,Bortoni,9
+BRA,Const‚ncio,Bortoni,9
 IND,A.,Deepika,10
 IND,Ruchi,Aggarwal,10
 IND,Rahul,Pandey,10
@@ -3127,7 +3127,7 @@ PHL,Jeannette,Virata,7
 USA,Heesung,Jang,16
 IND,Steffi,Michael,2
 FRA,Sandrine,Bideau,6
-USA,Luc√≠a,Piccato Bini,10
+USA,LucÌa,Piccato Bini,10
 IND,Syam,Akyana,9
 IND,Sikkandar,Fathima,10
 TWN,Shun-Hsiung,Wu,10
@@ -3150,7 +3150,7 @@ IND,Ram,Verma,0
 RUS,Mike,Khakhlou,7
 IND,Nityananda,Maiya,6
 BRA,Guilherme,Di Ricco,13
-MEX,Luis,Pe√±aranda Bautista,23
+MEX,Luis,PeÒaranda Bautista,23
 IND,Kirti,Kunj Das,23
 ITA,Giulia,Pastori,12
 TUR,Goksel,Manav,13
@@ -3195,12 +3195,12 @@ USA,Alvis,"Tabner, III",12
 IND,Santhosh reddy,Dendhi,23
 IND,A.S,Shanmugam,0
 ROU,Vlad Ioan,Nistorica,5
-MEX,Luis Felipe,Holgu√≠n A√±overos,22
+MEX,Luis Felipe,HolguÌn AÒoveros,22
 IND,Akash,Sharma,4
 GBR,Naama,Keidar,7
 USA,Ya Long,Zha,10
 IND,Sai,J,7
-MEX,Sergio,Mart√≠nez Gonz√°lez,12
+MEX,Sergio,MartÌnez Gonz·lez,12
 CHN,WU,Jianhua,12
 USA,Elizabeth,Lee,17
 IND,Byamakesh,Mohapatra,5
@@ -3275,7 +3275,7 @@ USA,Ladina,Whitfield,17
 IND,Subir,Saha,7
 IND,Lavanya,Kanchipati,7
 USA,Daniel,Chaparro,18
-COL,Karine Elena,Nu√±ez Florez,18
+COL,Karine Elena,NuÒez Florez,18
 ISR,Liza,Sorin,7
 IND,Venkatesh,Madugundi,22
 CHN,Kun,Lin,2
@@ -3301,7 +3301,7 @@ IND,Akshay,Gupta,8
 USA,Shenyo'a,Nubuya,19
 USA,Anthony,Lincoln,19
 IND,Mohammad,Haque,10
-KOR,ÏÑ±Ìõà,Ï∞®,15
+KOR,??,?,15
 IRL,Md,Haque,2
 IND,Kumari,Princey,3
 USA,Michael,Rodgers,8
@@ -3326,7 +3326,7 @@ USA,Christopher,Poliquin,14
 USA,Akash,Agarwal,0
 USA,Praharsh,Srinivasula,8
 USA,Abhishek,Singh,11
-COL,Carlos,Villamizar Rodr√≠guez,10
+COL,Carlos,Villamizar RodrÌguez,10
 IND,Ashik,Vazhayil,4
 USA,PAYAL,SATAV,3
 IND,V,Ashok,5
@@ -3334,13 +3334,13 @@ PAK,Lakshmana,Sabbi,6
 USA,Mina,Sharobim,16
 USA,Dustin,Stohler,17
 USA,Michael,Cymbrowsky,20
-VNM,Ng√¢n,Nguy·ªÖn Th·ªã H·ªìng,20
+VNM,Ng‚n,Nguy?n Th? H?ng,20
 IND,Akhil,pg,0
 IND,V,Priyanka,8
 USA,Malhar,Bedarkar,12
 IND,Monika,L,14
 USA,Mihir,Naik,0
-DEU,Elisabet,F√†bregas Vila,4
+DEU,Elisabet,F‡bregas Vila,4
 AUS,Kieran,Buckley,3
 USA,Daniel,Hallman,18
 IND,Sagar,Goyal,4
@@ -3353,7 +3353,7 @@ IND,Asha,K.  P,23
 USA,Louis,Archuleta,23
 USA,Iggy,Medeiros,17
 USA,Jimmy,Yang,18
-POL,Andrzej,Chy≈Ça,19
+POL,Andrzej,Chyla,19
 ISR,Rivka,Bachar,5
 CHN,He,Jue-Jade,8
 IND,Shaleen,Dadheech,4
@@ -3395,7 +3395,7 @@ IND,Deepanker,Prajapati,4
 CHN,K,Sridharan,13
 GBR,Lydia,Rickards,17
 IND,Nirav,Dhami,7
-ROU,SƒÉceanu,Vlad-Gabriel,17
+ROU,Saceanu,Vlad-Gabriel,17
 IND,Raghu,Thimmarayappa,9
 USA,Joshua,Born,19
 USA,Kevin,Heideman,19
@@ -3524,7 +3524,7 @@ IND,Vikash,Lakhera,7
 IND,Jashnil,Bodele,7
 IND,sunil,darna,15
 USA,Daniel,Larsen,16
-MEX,Jos√©,Lares Ortega,10
+MEX,JosÈ,Lares Ortega,10
 BRA,Nicole,Konno Hirano,11
 IND,Chaitrali,Kumbhar,12
 USA,Thomas,Powell,13
@@ -3590,7 +3590,7 @@ USA,Ricki,Esses,20
 USA,Chad,Dibble,21
 IND,Arnab,Bhattacharya,23
 IND,Nishant ,Vidyasagar,23
-MEX,Chr√≠stian,D√≠az,23
+MEX,ChrÌstian,DÌaz,23
 CRI,Zaida,Vega Alvarez,16
 USA,Praveen,Kashyap,20
 USA,Sharon,Westerberg,13
@@ -3628,7 +3628,7 @@ MYS,Anis,Mohd Kamal,1
 ISR,asaf,cohen,12
 IND,Sumit,Sahoo,13
 IND,PRABHAKAR,SELVAM,14
-COL,Felipe,Acu√±a Carvajal,15
+COL,Felipe,AcuÒa Carvajal,15
 ISR,Anastasia,mineev,15
 USA,Loren,Hartline,21
 IND,Ankita,Gauba,3
@@ -3650,7 +3650,7 @@ USA,Jeff,Schreiner McGraw,1
 SAU,Ahmad,Sharara,4
 IND,Abhay,Sharma,0
 IND,vikas,raut,10
-ZAF,Andr√©,Koorsen,5
+ZAF,AndrÈ,Koorsen,5
 USA,Glen,Liang,8
 IRL,Darragh,Mulcahy,9
 USA,Nicholas,Bullard,13
@@ -3671,12 +3671,12 @@ IND,Rakesh,Siddamsetti,6
 IND,Sanjay,K Sunny,9
 IND,Arnav,Srivastava,10
 IRL,Ben,Reynolds,10
-COL,Ileana,Nu√±ez Rubiano,14
+COL,Ileana,NuÒez Rubiano,14
 MYS,Alvin,Wai Chung,1
 CHN,Fred,Chai,4
 IND,ashish,trivedi,0
 IND,Laxmikantha,N C,2
-ESP,Mar√≠a,Arias De Reyna Dom√≠nguez,6
+ESP,MarÌa,Arias De Reyna DomÌnguez,6
 IND,Snehil,Kumar,4
 IND,Prakul,Bhalerao,6
 CAN,Doinita,Marcu,12
@@ -3701,7 +3701,7 @@ IND,Pankaj,Suryavanssi,2
 IND,Prajwal,Shivaprakash,2
 MAR,Issam,Khettabi,10
 IND,M.V,Ramanjaneyulu,10
-ESP,Mar√≠a,Rodr√≠guez Oreamuno,10
+ESP,MarÌa,RodrÌguez Oreamuno,10
 IND,Rohini,Raju,1
 IND,Avinash,Rajurwar,8
 BRA,Fernando,Coura,9
@@ -3747,7 +3747,7 @@ ARE,Nitin Babu,George,6
 BRA,Marcelo,Orsolini,7
 IND,Vijayalakshmi,Selvam,7
 IND,balaji,srinivasan,8
-POL,Micha≈Ç,Si≈Çaczuk,16
+POL,Michal,Silaczuk,16
 ISR,Dana,Neumark,10
 USA,Christopher,Siems,11
 ISR,Eli,Abergil,11
@@ -3803,7 +3803,7 @@ FIN,Liang,Wang,17
 USA,Luigi,Ciuffardi,21
 USA,Allen,Wong,0
 IND,Tanmeet,Malhotra,23
-VNM,Tu·∫•n,Nguy·ªÖn,5
+VNM,Tu?n,Nguy?n,5
 ISR,Anat,Cohen,6
 USA,Susana,Ramirez Arnuero,13
 IRL,Laviniu,Lung,17
@@ -3841,7 +3841,7 @@ CHN,ZhaoHui,Qi,0
 IND,B,Sowmya,1
 USA,Daniel,Lee,5
 IND,V,Lavanya,0
-MEX,Ansel,Rodr√≠guez Gonz√°lez,12
+MEX,Ansel,RodrÌguez Gonz·lez,12
 USA,Eric,Shults,12
 IND,Amogh,B,13
 IND,Priyanka,Mandapuram,4
@@ -3877,7 +3877,7 @@ IND,RAKESH,KULKARNI,9
 USA,Krzysztof,Wyczanski,11
 IND,Peddi,Anusha,13
 IND,K0PPIREDDY,Renuka,13
-USA,St√©phane,Zuckerman,23
+USA,StÈphane,Zuckerman,23
 TWN,Ping-I,Chen,20
 VNM,Hieu,Pham,1
 NLD,Sutapa,Sarkar,16
@@ -3887,7 +3887,7 @@ IND,P.,Kumar,0
 USA,Justin,Horrell,12
 IND,Suvashree,Choudhury,13
 IND,Akshara,L.R.,15
-CRI,Froil√°n,Montero Barahona,10
+CRI,Froil·n,Montero Barahona,10
 ARG,Federico,Belmonte,10
 ITA,Usha,S,0
 IND,KeshavKumar,Madhu,13
@@ -3963,14 +3963,14 @@ IND,Akshay,Yeram,10
 IND,Rajasekar,K,7
 ISR,Daniela,Itzhakov,9
 IND,Vaddi,Vinusha,5
-ITA,Heli,P√©rez,13
+ITA,Heli,PÈrez,13
 IND,Dolan,Roy Choudhury,15
 JPN,Indra,Nugraha Abdullah,22
 IND,Prashant,Shirol,0
 IND,Avinash,Kumar,1
 IND,Hariom,Rajpoot,2
 IND,Benedict,Xavier,3
-PER,Renzo Mart√≠n,Quezada Palacios,11
+PER,Renzo MartÌn,Quezada Palacios,11
 MYS,Min Hong,Poh,12
 USA,Sukhjinder,Singh,14
 USA,Mahesh Reddy,Pochareddy,14
@@ -3990,7 +3990,7 @@ BRA,Gustavo,Pissolatti,17
 IND,Ravindra,Solanki,17
 BRA,Otavio,Da Silva,19
 BRA,Yasmin,Capello,18
-ESP,Joel,Salda√±a Montoya,18
+ESP,Joel,SaldaÒa Montoya,18
 TWN,Wyatt,Tzeng,19
 IND,Boobalakrishnan,Sadasivam,11
 USA,Prashant,Kumar,13
@@ -4045,7 +4045,7 @@ IND,M,Priya,2
 IND,K R,Shruthi,3
 IND,Senthil kumar,A,3
 IND,Swati,Sahay,5
-CHL,Andr√©s,Cisternas,0
+CHL,AndrÈs,Cisternas,0
 USA,John,Ko,11
 IND,Tawfiq,Ahmed,12
 USA,Andrew,Esch,13
@@ -4075,7 +4075,7 @@ IND,Nithin Reddy,Kambam,10
 ARE,Muhammad Rizwan,Azam,4
 ISR,Alexander,Freiter,6
 ESP,Victor,Cordon Garcia,9
-PER,Victo Orlando,Carruitero Qui√±ones,11
+PER,Victo Orlando,Carruitero QuiÒones,11
 SGP,Tan,Wee Min Andre,21
 USA,Suresh,G,1
 IND,Nagendhra,Anumolu,2
@@ -4190,7 +4190,7 @@ IND,Chandan,Kumar,4
 RUS,Julia,Shiryaeva,8
 SGP,Junhui,Cao,10
 USA,Barbara,Paquette,11
-MEX,Armando,Valadez Jim√©nez,11
+MEX,Armando,Valadez JimÈnez,11
 USA,Toby,Salais,22
 USA,Hith, L M,12
 USA,Fernando,Ochoa,18
@@ -4249,7 +4249,7 @@ USA,Jake,Wynn,14
 USA,Chetna,Vyas,8
 IND,Pradeep,N,11
 IND,Meenakshi,Shukla,13
-ESP,Sergio,Luj√°n Cuenca,13
+ESP,Sergio,Luj·n Cuenca,13
 IND,Samir,Whig,0
 IND,Nisha,Kumari,1
 IND,Sameer,Kulkarni,2
@@ -4257,8 +4257,8 @@ IND,Kumara,K,0
 USA,Chiranjeevi,Vamala,19
 USA,Magdalena,Bielinski,10
 IND,Chaitanya,Garlapati,2
-BRA,Rog√©rio,Bueno,7
-FIN,Joose,Rajam√§ki,7
+BRA,RogÈrio,Bueno,7
+FIN,Joose,Rajam‰ki,7
 NLD,Xiang,Liu,12
 IND,Alex,Burno,2
 USA,Suresh Reddy,Yannapusa V,2
@@ -4273,11 +4273,11 @@ USA,Ivaylo,Vasilev,19
 USA,Yu-Kai,Weng,13
 USA,Kole,Hicks,12
 USA,Ryan,Johnson,13
-ESP,Adri√°n,Ag√ºero Piedra,15
+ESP,Adri·n,Ag¸ero Piedra,15
 BRA,Thiago,Zaiden,20
 IND,J.,Singh,4
 IND,Ram,Bhanu,5
-VNM,Ph·∫°m,Vinh,7
+VNM,Ph?m,Vinh,7
 IND,Manoj,Sharma,11
 USA,Kimberley,Kromer,18
 IND,Sanghai,Sachin,13
@@ -4306,7 +4306,7 @@ KOR,Ji-Soo,Sung,9
 MYS,Abdul ,Mujeeb,3
 IND,Anirban,Kundu,4
 ITA,federica,valentini,12
-ARG,Juan Jos√©,Lerda,15
+ARG,Juan JosÈ,Lerda,15
 IND,Koti,Nagaraju,0
 IND,Rayagouda,Gadade,5
 MEX,Miguel,Rodriguez Castaneda,15
@@ -4330,7 +4330,7 @@ ITA,Giulia,Panasia,10
 BRA,Luiz,Mancilha,10
 USA,Ryan,Hartman,19
 IND,Nischal,Karanam,0
-MEX,Marcelo,G√≥mez Rivera,0
+MEX,Marcelo,GÛmez Rivera,0
 GBR,Mohammad,Mulla,16
 IND,NagaSreeAparna,Bhusarapu,9
 USA,P,Kumar Choudary,10
@@ -4342,7 +4342,7 @@ IND,Shruti,Dhupar,8
 USA,Vishaal,Nagaraja,0
 USA,Tai,Nguy,14
 USA,karthikeyan,veerabathran,16
-MEX,Angel de Jes√∫s, Acosta Dom√≠nguez,17
+MEX,Angel de Jes˙s, Acosta DomÌnguez,17
 ISR,Dan,Gureni,7
 USA,Cristian,Fournies,20
 MYS,Yuan Chuan,Sing,5
@@ -4353,7 +4353,7 @@ USA,Xiaoning,Mao,17
 GBR,Edward,Stapleton,13
 IND,Jeevan,Pandey,14
 PER,Rebeca,Torres Martijena,15
-MEX,Eduardo,Mart√≠nez,15
+MEX,Eduardo,MartÌnez,15
 ISR,Shmuel,Gvir,16
 IND,Pranjal,Singh,4
 IND,Nikhil, Nainoor,4
@@ -4376,7 +4376,7 @@ IND,Josephine,Anjana Swamy,3
 IND,Sajith,GS,11
 IND,Ankita,Taneja,12
 IND,P,Deepika,5
-MEX,Jes√∫s,Castro Acosta,16
+MEX,Jes˙s,Castro Acosta,16
 USA,Ryan,Atkinson,19
 USA,Zandra,Faulkner,21
 IND,Nitin,Shukla,23
@@ -4408,7 +4408,7 @@ IND,A.,Guhan,5
 USA,Brian,Pakizer,21
 IND,Sherly,Chacko,2
 IND,Harshda,Borse,4
-USA,Ratko,Ivkoviƒá,18
+USA,Ratko,Ivkovic,18
 IND,Ambrish,Gupta,14
 IND,Aswathy ,Priya M,10
 IND,Dakshayini,G,11
@@ -4417,7 +4417,7 @@ IND,NANDINI,MENON,5
 IND,Jagadeeswara,Reddy,2
 USA,Gary,Pierre,9
 IND,Apurba,Mondal,11
-ESP,H√©ctor,Rodriguez Salgado,11
+ESP,HÈctor,Rodriguez Salgado,11
 GBR,Alessandro,Nunziante,12
 USA,Neelima,Ranjitkar,8
 USA,Hung,Nguyen,19
@@ -4483,7 +4483,7 @@ IND,Vinaya,Nayak,11
 USA,Zhu,Zhitao,15
 USA,Jason,DeVout,15
 IND,M.,Swathi,5
-IRL,Eva,Gra≈à√°kov√°,6
+IRL,Eva,Gran·kov·,6
 IND,Kamran,Zahidi,9
 USA,Scott,Minervini,13
 USA,Kevin,Zhou,14
@@ -4515,7 +4515,7 @@ USA,Kireeti,A,4
 IND,Ashwini,Chikmath,7
 QAT,Mohammed,Naufal,7
 ISR,Shira,Shavit,17
-CRI,Holmer,Gonz√°lez Pineda,20
+CRI,Holmer,Gonz·lez Pineda,20
 CHN,Shiqi,Zhao,21
 PER,Gisela,Peralta,13
 IND,Disha,Mishra,4
@@ -4526,7 +4526,7 @@ CHN,Parag,Jain,10
 MYS,Shileena,Sandanadass,2
 USA,Matt,Drake,18
 VNM,Thi Thuy Hang,Tran,7
-FRA,Ad√®le,Foret,8
+FRA,AdËle,Foret,8
 SGP,Rinku,Wilson,8
 DEU,Daniel,Engelhart,11
 IND,Mangilal,Suthar,6
@@ -4547,7 +4547,7 @@ UKR,Mokhonko,Vitalevich,15
 USA,Cynthia,Wong,2
 IND,Deekshitha,Guntakandla,10
 IND,Harshal,Late,10
-USA,◊®◊¢◊ï◊™,◊§◊ô◊ú◊ï,10
+USA,????,????,10
 IRL,Shaun,Gallagher,9
 USA,Keith ,Jawahir,9
 IND,Arnab,Bose,0
@@ -4568,7 +4568,7 @@ ISR,Idan,Danino,3
 USA,Troy,Sanders,5
 CRI,Marvin,Quesada,13
 IND,Asif,Khan,13
-ESP,Joselyn,Vargas Sol√≠s,13
+ESP,Joselyn,Vargas SolÌs,13
 IND,Kruti,Pradhan,11
 MYS,Siti,Binti Johari,0
 CHN,Sun,Dongzheng,0
@@ -4615,14 +4615,14 @@ IND,N.Arun,Nehru,14
 USA,David,Hoffman,20
 BRA,Sergio,Leonel Palermo,15
 USA,Jennifer,Dumas,17
-CRI,Carlos,Chac√≥n Chavarr√≠a,19
+CRI,Carlos,ChacÛn ChavarrÌa,19
 IND,Siby,Unnithan,15
 IND,Sourav,Sarkar,9
 IND,Abhijit,Mohanty,9
 USA,Chaz,Dudley,13
 BEL,KamWing,Ho,8
 DNK,Ivana,Tomkova,5
-MEX,Hugo Diego,Mu√±iz Carrillo,12
+MEX,Hugo Diego,MuÒiz Carrillo,12
 PER,Carlos,Panez,17
 USA,Kathyayan goud,Mula,15
 IND,Asfia,Hussain,3
@@ -4645,13 +4645,13 @@ IND,B.,Reddy,1
 USA,Aiman,Zidan,18
 USA,Katherine,Kim,14
 USA,Cynthia,Sosa,21
-MEX,Victor Rodrigo,Monta√±o Mancilla,16
+MEX,Victor Rodrigo,MontaÒo Mancilla,16
 IND,MADHU,KR,4
 KOR,Ji Eun,Park,19
 IND,Akil,Khan,0
 IND,Sujit,Pradhan,1
 IND,Joshika,Subburaj,1
-COL,Laura,Casta√±eda Montealegre,16
+COL,Laura,CastaÒeda Montealegre,16
 IND,Anurag,Deb,1
 MYS,Teng Guan,Koay,2
 CHN,Xinyue-Joyce,Li,3
@@ -4870,7 +4870,7 @@ USA,Fras,Faisal,12
 USA,Anne,Warden,13
 CAN,Shailesh,Chekurthi,13
 IRL,Brendan,Dunne,13
-POL,Natalia,WƒÖsicka,8
+POL,Natalia,Wasicka,8
 USA,Diptarup,Dey,9
 IND,Santosh,Kulkarni,3
 IND,Devdutta,Singh,10
@@ -4881,7 +4881,7 @@ CHN,Felix (Xin),Cheng,1
 USA,Ahmad,Khatib,14
 IND,Ankur,Rohila,14
 USA,Cara,Baldwin,15
-ARG,Juan Manuel,D√≠az,10
+ARG,Juan Manuel,DÌaz,10
 RUS,Anastasia,Kirillova,10
 IND,Sana,Sayyed,1
 ISR,Mor,Ron,3
@@ -4931,7 +4931,7 @@ USA,Ayush,Chaturvedi,11
 IND,Annapurna Sastry,Manda,4
 IND,Mudasar,Shaik,5
 USA,Gaurav,Kukreja,6
-CHL,Mario,C√°ceres Andaur,9
+CHL,Mario,C·ceres Andaur,9
 ISR,Yair,Rainer,5
 USA,Robert,Enright,21
 USA,Pam,Walker,0
@@ -4939,7 +4939,7 @@ MYS,Gunasuntari,O Gandhi,12
 CRI,Wainer,Ledezma Villalobos,16
 DEU,Robert,Szymanski,17
 IRL,Sean,Bassett,14
-POL,Karolina,ZƒÖbek,5
+POL,Karolina,Zabek,5
 USA,Mike,Neubig,20
 IND,Sivanvitha,Sivalenka,20
 ARG,Lucila,Gorrissen,17
@@ -4960,7 +4960,7 @@ USA,Chuping,Liu,14
 IRL,Stephen,Larkin,2
 USA,Eric,Su,19
 IND,Vikram,Kumar,10
-VNM,ƒê·ª©c Huy,Nguy·ªÖn,22
+VNM,–?c Huy,Nguy?n,22
 IND,Girish,Chitgopker,0
 USA,Mansimran,Benipal,13
 IND,Ashish,Kumar,17
@@ -5037,7 +5037,7 @@ IND,Raghav,Vyas,8
 ISR,brit,asher,8
 IND,Biswajeeta,Panda,8
 IND,Ganesh,Poojari,2
-FIN,Henri,S√§il√§,2
+FIN,Henri,S‰il‰,2
 CHN,Frank,Bauer,22
 USA,C.,Arunachalam-Mrs  .,7
 IND,Naresh,Shirupa,20
@@ -5062,10 +5062,10 @@ USA,Chandana,Chandrashekar,17
 GBR,Christopher,Francis,9
 USA,Yu,Hou,20
 IND,Manthena,Rajesh,12
-BRA,Vit√≥rio,Sassi,15
+BRA,VitÛrio,Sassi,15
 IND,Ammu,Anaril Sreekumar,9
 IND,Thirugnanam,J,0
-POL,Micha≈Ç,≈Åuczak,2
+POL,Michal,Luczak,2
 IND,Saroj,Nayak,9
 ISR,Elia,Goviazin,20
 IND,Shaheen,Farooqui,10
@@ -5104,7 +5104,7 @@ IND,Shweta,Nair,8
 CAN,Brad,Hookings,20
 USA,Sharath,Uppu,8
 MYS,Pua,Hao,8
-FRA,M√©lina,Raveleau,8
+FRA,MÈlina,Raveleau,8
 IND,Vinay,Singh,11
 USA,Jian,Wang,11
 USA,Sumit,Saraogi,1
@@ -5119,7 +5119,7 @@ USA,T.,Luby,17
 IND,saravanan,radhakrishnan,10
 USA,Sarpharaj,khan,10
 USA,R.,Peek,20
-SRB,Bojan,Djuroviƒá,20
+SRB,Bojan,Djurovic,20
 USA,Jared,Miller,13
 USA,Seyfiddin,Karacay,14
 IND,Ajay,Vishwakarma,2
@@ -5174,7 +5174,7 @@ CHN,Tianchao,ZHANG,2
 GBR,Christina,Connor,5
 IND,Prashant,Baghel,9
 USA,Mark,Shavers,13
-CRI,C√©sar,Mata Bonilla,22
+CRI,CÈsar,Mata Bonilla,22
 IND,jayaraja,E,11
 USA,Jeffery,Heiney,20
 CHN,meenakumari,ram,0
@@ -5195,7 +5195,7 @@ ARG,Ignacio,Perez Lemme,18
 CHN,Karthik,M,6
 IND,Subhasish,Maitra,0
 IND,V P,Najeesha,0
-MEX,Guillermo,Mu√±iz Hermosillo,13
+MEX,Guillermo,MuÒiz Hermosillo,13
 KOR,Eun,Jung,1
 RUS,Dmitriy,Starodumov,6
 IND,Amit,Singh,7
@@ -5219,8 +5219,8 @@ CHN,Guan,Wang,1
 USA,Manuel,Sta Romana,13
 IND,Jagadeeshan,S,10
 DEU,Claudio,Pezzano,17
-FRA,C√©dric,Vall√©e,19
-ARG,Nicol√°s,Savatsky,20
+FRA,CÈdric,VallÈe,19
+ARG,Nicol·s,Savatsky,20
 MEX,Helmuth,Aboites Hintze,20
 IND,kaushiki,jha,21
 IND,Saraschandra,Chebrolu,5
@@ -5238,7 +5238,7 @@ USA,Catherine,Carlson,18
 USA,Alex,Montgomery,19
 IND,Pappu Kumar,C o Kumar Deb,1
 USA,Jonathan,Thai,22
-TUR,Mert,Ko≈üar,17
+TUR,Mert,Kosar,17
 IND,Santosh,Mohapatra,9
 USA,Mark,Wentworth,5
 IND,Niket,Rawal,6
@@ -5249,7 +5249,7 @@ IND,Dinesh,M,11
 IND,satish,Molleti,3
 USA,Leo (Jianhao),Chen,3
 IND,Akshay,Mathur,3
-ARG,Carlos,Albarrac√≠n,16
+ARG,Carlos,AlbarracÌn,16
 MEX,Giovanni Moises,Rodriguez Casillas,16
 USA,Anna Cristina ,Alvarado Pelayo,16
 IND,Kunal,Jain,2
@@ -5282,7 +5282,7 @@ MYS,Sing Yee,Loh,4
 IND,Soumyashree,Das,4
 CMR,Macellous,Mbameg,11
 AUS,Adi,Harcinovic,1
-BLR,–ò–≤–∞–Ω,–¢–µ—Ä–µ—Ö,1
+BLR,????,?????,1
 CHN,Hariharan,Balasubramanian,2
 MEX,Anwesha,Chakraborty,23
 CHN,Divyesh,Thakrar,1
@@ -5317,7 +5317,7 @@ IND,Mir Mohib ,Ul Ghouse ,3
 IND,Krunal,Gujarathi,15
 USA,Mohammed,Azad,17
 USA,Brian,Boyle,12
-ESP,Jos√©,Sarta Valencia,0
+ESP,JosÈ,Sarta Valencia,0
 CHN,Xiangdang,Zhang,2
 IND,Bibhuranjan,Mohapatra,13
 IND,Mahabir,Singh,7
@@ -5371,16 +5371,16 @@ IND,Gokul,Praveen,12
 USA,Sarah,Diaz,12
 IND,Bheemraj,Shellagi,14
 IND,Vivekananda,Acharya,5
-ESP,Adri√°n,L√≥pez Hern√°ndez,6
+ESP,Adri·n,LÛpez Hern·ndez,6
 USA,John,Gruenbacher,13
-MEX,Jes√∫s Humberto,Rivera Cruz,2
+MEX,Jes˙s Humberto,Rivera Cruz,2
 USA,Lourdes,Thomas,16
 USA,Kenny,Dennis,16
 USA,Joshua,Xie,16
 USA,Ashton,Danitschek,16
 PHL,Cecil,Mercado Villanueva,4
 IRL,Manjushree,Gk,4
-POL,Tomasz,R√≥≈ºa≈Ñski,4
+POL,Tomasz,RÛzanski,4
 USA,Daniel,McArdle,15
 GBR,Daisi,Sowemimo,20
 IND,KESIRAJU,NISHANTH,23
@@ -5403,7 +5403,7 @@ CHN,Chengcheng,Zhang,2
 IND,Talluri,Sasya,2
 IND,D,Mohan,9
 IND,Abdur Raheem,Mohd,10
-MEX,Jonat√°n ,Hern√°ndez,11
+MEX,Jonat·n ,Hern·ndez,11
 IND,Santosh,Tiwari,11
 USA,Kenneth,Kizer,13
 IND,AJAY,KUMBHKAR,22
@@ -5435,7 +5435,7 @@ USA,Kelsey,Johnston,15
 GBR,Mihai,Pintilie,16
 USA,Sravya,Madugula,13
 USA,Glen,Stone,1
-ARG,Mart√≠n,Aguila,9
+ARG,MartÌn,Aguila,9
 USA,Sanjay,Champati,6
 ISR,Inna,Blanky,8
 IND,Abhijit,Parida,9
@@ -5495,7 +5495,7 @@ USA,Scott,Hongsdusit,15
 CHN,Rohit,Mashere,11
 IND,Pramesh,Mishra,7
 IND,Puja,Ethape,9
-ARG,Agust√≠n,Conejos,9
+ARG,AgustÌn,Conejos,9
 NPL,Pratap,Poudel,10
 USA,Yihan,Liu,13
 DEU,Thomas,Meyer,10
@@ -5532,7 +5532,7 @@ USA,Brian,Emmenegger,1
 USA,Akshay,Hebbal,19
 IND,Modi,Rubal,11
 IND,Yogesh,Pitale,11
-COL,Javier Olivo,Garc√≠a Araque,18
+COL,Javier Olivo,GarcÌa Araque,18
 IND,Anurag,Sethi,7
 EGY,Maha,Abdel-Azim,9
 IND,Sanjeeta,Thakur,2
@@ -5551,7 +5551,7 @@ GBR,John,Newman,11
 USA,Ravi,Biyala,5
 IND,Podila,Gopi,10
 IND,Ashok,Vijay,18
-MEX,C√°ndido,Michaca,19
+MEX,C·ndido,Michaca,19
 IND,Amitabh,Chakraborty,3
 USA,Santhosh,Yemula,23
 ITA,Pratima,Kar,23
@@ -5559,7 +5559,7 @@ IND,Supriya,Gochade,3
 IND,Nitin,Gorle,23
 IND,G,Priyanka,1
 IND,Vinod,BA,6
-ARG,Javier,Mi√±o,7
+ARG,Javier,MiÒo,7
 USA,Celena,Ohley,11
 IND,Pallavi,Shrivastava,9
 USA,Wilson,Yeh,15
@@ -5599,9 +5599,9 @@ USA,Jennifer,Prendki,13
 IND,darpan,gupta,4
 IND,Naveen,Sharma,4
 IND,jani kranthi kumar,Badugu,4
-ITA,Yonathan,Cedillos L√≥pez,15
+ITA,Yonathan,Cedillos LÛpez,15
 GBR,Kiran,Jangam,4
-ISR,◊û◊ô◊õ◊ê◊ú,◊û◊ú◊ï◊ú,4
+ISR,?????,????,4
 MYS,WAN MOHD FARID,WAN SARIS,4
 USA,Anna,Baglione,15
 USA,Thinh,Tran,15
@@ -5610,7 +5610,7 @@ MEX,Alfredo,Gonzalez Llanes,11
 USA,Blake,Drennan,20
 CHN,Xianglu,Wu,2
 AUS,Alexandru,Sturza,4
-POL,klaudia,Jab≈Ço≈Ñska,4
+POL,klaudia,Jablonska,4
 USA,Alexandra,Forelli,22
 POL,Pedro,Valero,9
 CHN,Xiangnan,SHI,9
@@ -5625,8 +5625,8 @@ IND,Swagath,Bejjanki,12
 USA,Sean,Crenshaw,8
 USA, Manpreet,Singh,14
 IND,Technical,Expertise,0
-DEU,Thomas,Br√ºckner,5
-MEX,Miguel,Galv√°n Villa,20
+DEU,Thomas,Br¸ckner,5
+MEX,Miguel,Galv·n Villa,20
 IRL,Mark,Fitzgibbon,9
 IND,Subhadeep,Mukherjee,6
 IND,Charu,Chhibber,7
@@ -5677,7 +5677,7 @@ ARG,Elias,Jaime,10
 USA,Kris,Walt,12
 IND,NAIMISHA,MUMMIDI,12
 USA,Daria,Evdokimova,12
-IRL,Silvia,L√≥pez Mart√≠nez,13
+IRL,Silvia,LÛpez MartÌnez,13
 ISR,Batya,Avital,0
 SVK,Maria,Pircova,2
 USA,ASHWINI,VIRATHAPLA SADASHIVA,18
@@ -5693,7 +5693,7 @@ CHN,Rohit,Gupta,6
 JPN,Ramandas,Patra,7
 ISR,Hili,Eidlin Levy,9
 USA,Bryan,Conway,13
-DEU,Gilberto,V√°zquez Reyes,7
+DEU,Gilberto,V·zquez Reyes,7
 IND,Rajesh,Gunasekaran,13
 IND,Rahul,Jain,14
 IND,Koushik,Ghosh,11
@@ -5708,7 +5708,7 @@ IND,Prakash,Sharma,7
 USA,Chan,Elaine,8
 USA,Candy,He,8
 IND,Pravar,Jain,8
-ARG,Dami√°n,Nardelli,10
+ARG,Dami·n,Nardelli,10
 USA,Travis,Neuberger,19
 USA,Justin,Davis,20
 BRA,Daniel,Toshimitsu,11
@@ -5809,12 +5809,12 @@ USA,Min,Song,12
 USA,Aravind,Sunderrajan,10
 IND,Ashwin,Karanth Ks,11
 IND,Suganya ,s,11
-ARG,Mart√≠n,Giachino,13
+ARG,MartÌn,Giachino,13
 USA,Steffi,Gnanaprakasa,13
 IND,Umashree,Kumbar,10
 FIN,Kristian,Lappalainen,11
 PHL,Wendil,Estrada,23
-NLD,Pablo,Sanagust√≠n,9
+NLD,Pablo,SanagustÌn,9
 CHN,Ravi,Temmanaboyina,12
 IND,Shwetambara,Patil,10
 CHN,Navneet,Kumar,10
@@ -5832,14 +5832,14 @@ IND,subhas,das,20
 USA,Abbie,Sandquist,21
 IND,Babloo,Kumar,23
 TWN,Chia-Hao ,Chang ,23
-VNM,L√™,Trung,20
+VNM,LÍ,Trung,20
 MEX,Isaac,Medina,18
-MEX,Argenis Alain , Padilla C√≥rdoba,19
+MEX,Argenis Alain , Padilla CÛrdoba,19
 CHN,Che-Hung,Lin,23
 IND,Prince,Rajan,6
 CHN,jianyi,hao,23
 IND,Siddharth,Anand,9
-MEX,Leonardo,Guti√©rrez Cure√±o,22
+MEX,Leonardo,GutiÈrrez CureÒo,22
 IND,Gaurav,Dobriyal,7
 IND,shameer,s,23
 IND,S,Priyadharshini,2
@@ -5902,7 +5902,7 @@ USA,Nikhil,Puri,22
 USA,Emma,Weil,2
 IND,Atul,Morde,1
 IND,Shelly,Thankaraj Vincent,15
-USA,◊ì,◊ë◊°,15
+USA,?,??,15
 USA,Ferdinand,Paragas,14
 IND,Gaurav,Tandon,11
 IND,malleswara rao,vastrala,22
@@ -5919,8 +5919,8 @@ PRT,Pei-Ying,Hsieh,10
 USA,Kirsten,Rizzo,13
 ISR,Yaron,Cohen,2
 IND,Francis,Saju,4
-MEX,Carlos,S√°nchez Uribe,10
-FRA,Sergio,Ram√≠rez G√≥mez,11
+MEX,Carlos,S·nchez Uribe,10
+FRA,Sergio,RamÌrez GÛmez,11
 ROU,Ionut,Podgoreanu,18
 ITA,Francesco,Di Ruscio,5
 ISR,Eva,Sagi,4
@@ -5968,7 +5968,7 @@ USA,Kailey,Boyd,20
 USA,Alyssa,Richmond,21
 USA,Keven,Minzer,21
 TWN,M Ponnambalam,pillai,21
-NLD,Luc√≠a,Salgado,10
+NLD,LucÌa,Salgado,10
 IND,M,Chandrakiruthiga,10
 IND,Gopal,Mandloi,13
 IND,savita,Barker,7
@@ -6085,7 +6085,7 @@ IND,Neha,Kasar,3
 USA,Martin,Levihn,10
 GBR,Arpit,Kumar,19
 USA,Justin,Nguyen,15
-USA,Shant√©,Vargas,16
+USA,ShantÈ,Vargas,16
 USA,Brenda,Phares,17
 MYS,Nurul,Jusoh,21
 USA,Tuhin,Neogi,9
@@ -6094,7 +6094,7 @@ USA,Margareth,Opanga,23
 IND,vinitha,Velmurugan,0
 BRA,Carolina,Cruz Santos,12
 USA,Abdul Rizwan,Shaik,13
-MEX,V√≠ctor,Morales Lira,14
+MEX,VÌctor,Morales Lira,14
 MEX,Yabin,Beltran,9
 IND,Shilpa,Venkatesh,9
 IND,jhansi,s,7
@@ -6120,7 +6120,7 @@ IND,Ankit,Jiniwal,13
 IND,Vinay,George,0
 USA,Rohan,Bedarkar,1
 IND,Rama,Talatam,4
-FRA,Micka√´l,Bella√Øche,8
+FRA,MickaÎl,BellaÔche,8
 IND,Arun,Yadav,9
 IND,Rakesh,Yadav,9
 USA,Briana,Sowell,10
@@ -6171,7 +6171,7 @@ COL,David Leonardo ,Parra Ortiz,11
 USA,Nancy,Truong,13
 GBR,Tatyana,Okhman,15
 IND,Vinod,Joseph,23
-IRL,Ciar√°n,Mullally,9
+IRL,Ciar·n,Mullally,9
 IND,Shoma,Bhowmick,9
 IND,Mitikiri,Sreevidya,9
 IND,Sunil,S C,13
@@ -6189,7 +6189,7 @@ ISR,Shay,Laps,16
 IND,Saju,Thomas,16
 USA,Kathy,Wheeler,17
 IND,Avinash,Gupta,13
-POL,Hanna,Weso≈Çowska,9
+POL,Hanna,Wesolowska,9
 IND,Shibani,Shetty,7
 IND,Reshma,Prasannan,8
 ISR,Noya,Dinor,14
@@ -6202,7 +6202,7 @@ IND,Samir,Sridhar,13
 IND,Prabhat,Sarkar,5
 IND,M.,Hemarani,5
 USA,Nathan,Tucker,8
-ARG,Emanuel,Mu√±oz,21
+ARG,Emanuel,MuÒoz,21
 IND,Mandeep,Singh,14
 MYS,Choon,Lau,8
 IND,Snehasis,Jena,0
@@ -6263,7 +6263,7 @@ IND,Saifullah,Khan,10
 CHN,gang,chen,22
 USA,Anthony,Wagner,20
 USA,Mona ,Yousofshahi,16
-DEU,Jes√∫s,Cuevas Castillo,5
+DEU,Jes˙s,Cuevas Castillo,5
 IND,Udhayakumar,S,10
 CAN,Juan,Serrano,14
 IRL,Mary,Bancheva ,12
@@ -6352,7 +6352,7 @@ USA,Jonnetta,Bratcher,12
 ISR,Miran,Sharafy,5
 IND,Gamoji,Divya,13
 PHL,June Andrew,Rabin,3
-VNM,Tr·∫ßn,T√¢m,21
+VNM,Tr?n,T‚m,21
 BRA,Iago,Bacelar,22
 ISR,Mie,Ben david,20
 IRL,Joseph,Gordon,10
@@ -6370,7 +6370,7 @@ GBR,Alison,Lowndes,1
 MYS,Muhammad Hafizzudin,Hairoibalizah,8
 IND,Nitin,Nischal,1
 USA,Jyotikrishna,Dass,15
-ARG,Juan Jos√©,Zapponi,8
+ARG,Juan JosÈ,Zapponi,8
 ISR,Daniel,Levy,9
 PER,Aldo,Venturelli,12
 GBR,Osman,Mohammed,10
@@ -6420,7 +6420,7 @@ IND,Imtiaz,Ahmed,10
 IND,Rupesh,Urmaliya,10
 USA,Gautham,Sastry,15
 IND,R.,Junjappa,6
-MEX,Fidel,Pa√©z Garc√≠a,19
+MEX,Fidel,PaÈz GarcÌa,19
 IND,Gaurav,Saxena,22
 KEN,Fakhrullah,Rajabali,0
 IND,Divya,Sharma,9
@@ -6510,7 +6510,7 @@ MYS,Hoi Sim,Lai,23
 IND,Suresh,Govindarajan,12
 USA,Khalid,Shams,2
 IND,INDUVATHI,S,9
-DNK,Tommy,S√∏rensen,7
+DNK,Tommy,S¯rensen,7
 BRA,Roberta,Vilela Pinto,9
 ISR,Raviv,Cohen,4
 IND,DOLLY,SINGH,11
@@ -6555,7 +6555,7 @@ IND,Resma,Ranjith,10
 IND,Mukesh,Kumar,8
 USA,Shanna,Rucker,1
 IND,SONU,KUMAR,11
-ISR,◊ì◊†◊î,◊†◊ï◊®◊ô◊ê◊ú,6
+ISR,???,??????,6
 USA,Jose,Dinn,11
 IND,Narendra,Harny,9
 USA,Vanessa,Sandoval,11
@@ -6616,7 +6616,7 @@ MYS,Nor,Binti Muhamad Bakhtiar,6
 USA,Steven,Kuo,14
 ARG,Franco,Zeballos,16
 MEX,Oscar,Sandoval Torres,21
-FIN,Markku,Haapam√§ki,15
+FIN,Markku,Haapam‰ki,15
 USA,Janiessa,Norice,21
 IND,tejaswini,utlapalli,0
 USA,Bryan,Freeman,15
@@ -6709,7 +6709,7 @@ CHN,Xiangjun,Meng,1
 USA,Hanna,Kim,22
 USA,Jaison,Babu,8
 IND,Bhoomil,Kalyani,11
-BIH,Emina,Aliƒçkoviƒá,6
+BIH,Emina,Alickovic,6
 ITA,Armando,Fizzarotti,14
 IND,Prateek,Sharma,13
 USA,Ana-Gabriel,Perez,16
@@ -6729,11 +6729,11 @@ IND,Abhijit,Mishra,5
 RUS,Ivan,Fedorov,6
 IND,shubham,shrivastava,6
 SOM,Pankaj,Chowdhury,14
-MEX,Juan,M√°rquez Serrano,15
+MEX,Juan,M·rquez Serrano,15
 ISR,Yael,Matsliah,2
 USA,Lauren,Patras,13
-CRI,Francisco,Eugen√≠n Hern√°ndez,15
-DEU,J√∂rg,Schneider,3
+CRI,Francisco,EugenÌn Hern·ndez,15
+DEU,Jˆrg,Schneider,3
 MEX,Javier Alejandro,Ochoa Cisneros,10
 USA,Zheng,Zhang,15
 MEX,Cesar,Bugarini,19
@@ -6762,7 +6762,7 @@ USA,Huy,Quach,16
 IND,Kowndinya,Suravadhanula,23
 IND,sreeramamurthy,unguturi,10
 IRL,Alberto,Masala,20
-MEX,Jose Manuel,Mart√≠nez Leos,23
+MEX,Jose Manuel,MartÌnez Leos,23
 IND,Praveen Kumar,Gopinath,3
 USA,Eric,Katzen,16
 USA,Thavy,Svay,3
@@ -6780,7 +6780,7 @@ IND,Shamama,Farnaz,5
 IND,Vivek,Anand,6
 GBR,Will,Hessey,19
 USA,curtis,james,14
-POL,Pawe≈Ç,Wolnowski,15
+POL,Pawel,Wolnowski,15
 ITA,Silvio,Baldino,3
 USA,Alfred,Zhu,23
 IND,K.,Preethi,10
@@ -6847,7 +6847,7 @@ USA,Phillip,Johnson,19
 USA,Katherine,Wright,21
 MEX,Aida,Perez,16
 IND,Bhupendra,Singh,9
-MEX,Xavier,Guzm√°n Robles,8
+MEX,Xavier,Guzm·n Robles,8
 USA,Prity,Gupta,11
 IND,Kirti,Sundram,1
 DEU,Francesco,Storace,16
@@ -6869,9 +6869,9 @@ MEX,Manuel,Mijangos Gonzalez,1
 LBN,George,Moukarzel,18
 IND,gaddam,Theshma,9
 IND,Rahim,Pegu,13
-MEX,Luis,Murillo N√∫√±ez,4
+MEX,Luis,Murillo N˙Òez,4
 ISR,dana,rahimi,8
-PER,Jes√∫s,L√≥pez,12
+PER,Jes˙s,LÛpez,12
 IND,Gaurav,Popli,19
 SGP,Vishal,Girisagar,13
 CHN,Brandon,Mitchell,12
@@ -6979,7 +6979,7 @@ USA,Marc-Daniel,Julien,15
 USA,Randy,Sinclair,15
 USA,Saad,Qureshi,11
 CHN,Sravani,Yalavarthi,12
-CRI,Carolina,Z√°rate,12
+CRI,Carolina,Z·rate,12
 IND,Radhika,Kulkarni,2
 PRT,Linda,Gudrunardottir,11
 USA,Vinod,Raghavan,15
@@ -7081,11 +7081,11 @@ IND,Venkatesh,Gangadhar,9
 RUS,Maxim,Begletsov,3
 IND,John paul,G,2
 IND,Anubhav,Gupta,6
-POL,Piotr,Barna≈õ,6
+POL,Piotr,Barnas,6
 IND,POOJA,GAVI,7
 IND,C,Mamatha,12
 GBR,Adeel,Akmal,19
-FIN,Reijo,Sepp√§nen,6
+FIN,Reijo,Sepp‰nen,6
 USA,Thomas,Bennett,13
 IND,Surajmal,Parmar,5
 CHN,Li,Lillian,6
@@ -7119,7 +7119,7 @@ USA,Hang,Yu,22
 TWN,Simon,Chu,6
 KOR,Younho,Lee,23
 ISR,revital,carney,8
-CRI,Jerelyn,Rom√°n Mu√±oz,17
+CRI,Jerelyn,Rom·n MuÒoz,17
 IND,Keshav,Dubey,4
 IND,Divya Naga Padmini, P,7
 USA,Delmary,Salcedo,12
@@ -7205,7 +7205,7 @@ ISR,zvi,greenberg,16
 USA,Hamilton,Sanchez,8
 USA,Darioush,Jalali,8
 USA,Robert,Goedrich,17
-CHN,Tomasz,Dudzi≈Ñski,2
+CHN,Tomasz,Dudzinski,2
 IND,veerasatish,pattam,4
 IND,Rohit,Khandekar,5
 IND,Abinash,Patel,7
@@ -7218,7 +7218,7 @@ CAN,Aravintakshan,Kolapakkam Ravichandran,16
 FRA,Yohann,Solaro,10
 IND,Krishna,Singha,13
 JPN,Shintaro,Tsuruta,8
-MEX,Luis,Garza Narv√°ez,17
+MEX,Luis,Garza Narv·ez,17
 USA,Steven,Palange,12
 USA,Kuldeep,Ramaiya,21
 USA,Sukesh,Mahajan,14
@@ -7343,7 +7343,7 @@ IND,shridhara,m,5
 USA,Michael,Wolfson,16
 USA,Brian,Cruz,20
 USA,Anthony,Mace,0
-TUR,Muhammed,Yah≈üi,1
+TUR,Muhammed,Yahsi,1
 IND,Sanjoy,Chakraborty,6
 IND,Surojit,Paul,7
 USA,Mitchell,Gu,20
@@ -7387,11 +7387,11 @@ ISR,Idan,Haim,20
 ISR,Michael,Smirnof,20
 IND,Aswini,Mv,7
 IND,Swati,Dubey,1
-BRA,Gilberto,Batist√£o,9
+BRA,Gilberto,Batist„o,9
 COL,Sebastian,Suarez Caicedo,14
 IND,Mohit,Bisen,11
 IND,Suresh babu,nulu,14
-CRI,Celia,L√≥pez D√°vila,15
+CRI,Celia,LÛpez D·vila,15
 AUT,Nikita,Negi,15
 CAN,Mayank,Malhotra,19
 USA,Navid,Jalali Heravi,20
@@ -7435,13 +7435,13 @@ IND,Nilesh,Rane,8
 NLD,Patrick,Stokvis,16
 USA,Soumya,Mantha,8
 IND,varun,Sujatha,9
-MEX,Pedro,Del Real L√≥pez,16
+MEX,Pedro,Del Real LÛpez,16
 USA,Gregory,Bess,16
 USA,Saijing ,Zheng,1
 IND,Project,System,3
 IND,Hardik,Thakkar,5
 IND,Vishwanath,E,11
-COL,Miguel,D√°vila D√°vila,9
+COL,Miguel,D·vila D·vila,9
 IND,Vishnu,R,7
 IND,Saurabh,Vashishta,7
 IND,Tejaswini,Yadav,8
@@ -7450,7 +7450,7 @@ USA,Jessica,Yuan,15
 IND,pushparaj,kumbharkar,8
 USA,Lia,Klein,19
 IND,Sanjog,Yadav,10
-TUR,ongun ,demiraƒü,11
+TUR,ongun ,demirag,11
 AUS,Sally,Gardner-Brunton,17
 USA,Jun Shun,Zhang,11
 USA,Cole,Dockter,19
@@ -7577,7 +7577,7 @@ IND,Anindita,Chakraborty,14
 USA,Jeffrey,Do,16
 IND,naveed,wani,18
 IND,Geetasha,Kumar,13
-POL,Marcin,G≈Çombiowski,12
+POL,Marcin,Glombiowski,12
 IND,HEMANANTH,R,7
 IND,C,Vigneswaran,9
 IND,Debabrata,Pattnaik,1
@@ -7623,7 +7623,7 @@ USA,Kiran,Karunakaran,22
 IND,Mohd,Ansari,9
 IND,Jaychandra,Mohanty,9
 USA,Alexander,Lyashevsky,22
-COL,Ivonne,Julieth Castillo Beltr√°n,8
+COL,Ivonne,Julieth Castillo Beltr·n,8
 MEX,Oscar ,Hernandez Martinez,22
 NLD,Frederick,Cahigas,4
 AUS,Richard,Ong,7
@@ -7635,7 +7635,7 @@ RUS,Alexander,Kirilkin,19
 IND,Akshay,Girpunje,0
 SGP,Dominic,Gallello,1
 ITA,Oleksandr,Pidlubnyy,6
-USA,Julio,Cort√©s L√≥pez,13
+USA,Julio,CortÈs LÛpez,13
 USA,Wen,Jing,0
 USA,Leslie,Whitesel,17
 USA,Anupama,Dassanayake,13
@@ -7650,7 +7650,7 @@ CHE,Friedrich,Koebler,13
 IND,Purnendu,Biswas,14
 USA,Vikas,Jakhotiya,14
 USA,Vamsi,Kalidindi,15
-POL,Pawe≈Ç,Wawruch,14
+POL,Pawel,Wawruch,14
 USA,Rebecca,Joos,20
 JPN,Meliza,Velasco,2
 IND,Archit,Khullar,17
@@ -7782,7 +7782,7 @@ IND,Arun Subramanian,S.,6
 IND,R.,Darshini,5
 ISR,Ora,Yosef,5
 IND,C.,Kumar,5
-TUR,Selin,Ert√ºz√ºn,8
+TUR,Selin,Ert¸z¸n,8
 IND,N.,Raju,8
 IND,Komal,Walia,8
 USA,Archana,Chintalacharuvu,8
@@ -7799,9 +7799,9 @@ BRA,Andre,Fonseca,10
 USA,Dave,Darnbrough,10
 USA,Randall,Staley,10
 IND,Anand,Mishra,11
-POL,Micha≈Ç,DƒÖbrowski,5
+POL,Michal,Dabrowski,5
 NZL,Justin,Zhu,9
-USA,◊û◊ï◊®◊ü,◊û◊ô◊†◊°,4
+USA,????,????,4
 MEX,miguel angel,ugalde bravo,17
 IND,Jasprit,Kour,6
 IND,R,Kiran,11
@@ -7884,7 +7884,7 @@ ISR,Nir,Toledano,2
 IND,Snehal,Jadhav,4
 ISR,nir,avraham,13
 IND,Shawan,Banerjee,4
-COL,Mar√≠a,Castro Alonso,14
+COL,MarÌa,Castro Alonso,14
 IND,Rajasekhar,Kalakangeri,9
 IRL,Alan,O' Driscoll,10
 ISR,Yael,Glass,10
@@ -7939,7 +7939,7 @@ ZAF,Kalpana,Panta,23
 IND,Manjunath,Biradar,6
 IND,Chris,Theodore,10
 MEX,Jose Fernando,Luna,16
-ESP,Bel√©n,L√≥pez Molera,6
+ESP,BelÈn,LÛpez Molera,6
 USA,Adit,Arya,20
 USA,Marvin,Marmol,20
 USA,Andrew,Romanyk,20
@@ -7948,7 +7948,7 @@ IND,Shivani,Priya,12
 MYS,Pang,Yi Qian,12
 CAN,Dhruv,Guliani,10
 SGP,Subramanian,T.N,10
-POL,Aleksandra,Przyby≈Ça,13
+POL,Aleksandra,Przybyla,13
 USA,Nicholas,Skiljan,15
 USA,Hilarie,Mazur,16
 IND,Navya,P,7
@@ -7985,12 +7985,12 @@ FRA,Marisela,Illarza,9
 GBR,Ferdinand,Njekwe,18
 CHN,Radhika,Deshpande,1
 IND,Sagar,Vyas,7
-POL,Jaros≈Çaw,Dzikowski,14
+POL,Jaroslaw,Dzikowski,14
 USA,William,Rathje,13
-COL,Juli√°n,Rodr√≠guez Mantilla,14
+COL,Juli·n,RodrÌguez Mantilla,14
 USA,Zhi He (Kevin),Ye,16
 USA,Ali,Kavoossi,17
-LTU,Art≈´ras,Kriukovas,12
+LTU,Arturas,Kriukovas,12
 USA,Joe,Pappas,15
 MYS,SYED ROSHAN,ASHRAF,9
 RUS,Alexey,Maximov,3
@@ -8126,7 +8126,7 @@ IND,Sam,Raj,11
 GBR,Iuliana,Giurgea,12
 USA,Hieu,Nguyen,15
 USA,Yogesh, Rathod,1
-ESP,Jos√© Manuel,Le√≥n ,14
+ESP,JosÈ Manuel,LeÛn ,14
 IND,Anand,Shankar,0
 IND,Aditya,Juneja,1
 BRA,Marcelo,Lorenz,17
@@ -8137,9 +8137,9 @@ IND,Uthrapriya,Sureshbabu,10
 IND,Sunil,Gowda,11
 USA,William,Sarnack-Alley,0
 IND,pranit ,jha,16
-COL,Alan ,Garc√≠a,18
+COL,Alan ,GarcÌa,18
 CHN,Fu,Chunjie,22
-DEU,Carsten,Wei√ü,7
+DEU,Carsten,Weiﬂ,7
 IND,Salelkar,Balikanand,11
 ISR,kadri ,kadri ,13
 MYS,Thivenesh,Murasoo,6
@@ -8244,7 +8244,7 @@ IRL,Shane,Clarke,13
 IND,Kavitha,G,2
 USA,Matthew,Bendure,15
 CHN,Enoch ,Zhang,23
-BRA,Rodrigues,Tau√£,10
+BRA,Rodrigues,Tau„,10
 USA,Supriya,Dharkar,16
 USA,Hung-Wei ,Liu,14
 USA,Tianlong,Yun,21
@@ -8264,7 +8264,7 @@ IND,Alphy,Sebastian,3
 USA,Gina ,Sprint,19
 IND,Madhuri,Deshmukh,7
 HRV,Mladen,Glavinic,12
-COL,Jennifer,Beltr√°n Sevillano,9
+COL,Jennifer,Beltr·n Sevillano,9
 FRA,Tania,Pouli,12
 IND,Monalisa,Biswal,6
 IND,Mohd,Shadab,6
@@ -8278,7 +8278,7 @@ USA,Shannah,Tan,23
 IND,Madhura,Nagar,6
 CHN,Kai,Li,2
 GBR,Xinyi,Wang,0
-COL,Camila,Guzm√°n P√°ez,16
+COL,Camila,Guzm·n P·ez,16
 USA,Ve,Herrmann,14
 USA,Thomas,McDaniel,15
 BGR,Miron,Koprev,14
@@ -8300,7 +8300,7 @@ BRA,Henrique,Ruiz Nunes Da Costa Coelho De,16
 ARG,Lucia,Maziad,14
 IND,Parveen,ubaidhu,1
 ISR,Avia,Galanti,8
-TWN,ÊòìÂÆ∂,Ë¨ù,11
+TWN,??,?,11
 USA,Joe,Kelly,11
 IND,Sanket,Sahu,9
 IND,Ayush,Jaggi,9
@@ -8322,7 +8322,7 @@ GBR,Ethan,Tan,18
 ZAF,K.,Nagamani,9
 CHN,Jayaprakash,G,9
 USA,Nicole,Perry,18
-MEX,Antonio,Ortega Fr√≠as,9
+MEX,Antonio,Ortega FrÌas,9
 USA,Rana,Dutta,2
 USA,Felicia,Salinas,15
 FRA,Xiaofei Xavier,WANG,17
@@ -8481,7 +8481,7 @@ USA,Ch,Sri,11
 IND,Vinay,Ratan,15
 IND,Achintya,Das,13
 USA,Shari,Gowdy,20
-FRA,Rapha√´l,Jaiswal,12
+FRA,RaphaÎl,Jaiswal,12
 GBR,James,Hill,11
 ISR,Yoni,Levitt,19
 IND,Sachi,Gaur,23
@@ -8490,7 +8490,7 @@ USA,Dana,Feddrix,8
 MEX,Miguel Angel,Barocio Cabrera,8
 RUS,Alexander,Ivanov,7
 IND,Garima,Rathee,9
-BRA,Diana,Gait√°n Rodr√≠guez,13
+BRA,Diana,Gait·n RodrÌguez,13
 IND,Radhika,Shroff,2
 IND,G.,Swathi,13
 USA,Rose,Stake,21
@@ -8498,14 +8498,14 @@ USA,Shannon,Cahill-Weisser,13
 USA,Rommel,Reyes,19
 PRT,Standley ,Limarta,21
 USA,Vicente,Vita,11
-USA,Basilio,Brice√±o,11
+USA,Basilio,BriceÒo,11
 DEU,J,Lakshmipriya,11
-TUR,Emir,√ñzkan,14
+TUR,Emir,÷zkan,14
 USA,Shawn,Madtha,17
 USA,Emily,Veer,20
 USA,D.,Sriram,14
 IRL,Sean,Bermingham,19
-COL,Sergio,√Åvila Ram√≠rez,14
+COL,Sergio,¡vila RamÌrez,14
 USA,Vineeth,Muddasani,13
 IND,Ashish,Khandelwal,15
 MYS,Mohd Noor,Zainol Abidin,22
@@ -8529,7 +8529,7 @@ IND,Siddanth,V,1
 IND,M.,Ahamed,9
 IND,Madhukar,Patil,9
 ISR,Idan,Homri,8
-BRA,Jo√£o,Patah,10
+BRA,Jo„o,Patah,10
 IND,Santosh,Bandaru,13
 KOR,Minseok,Kim,5
 IND,Panuganti,Venkatesh,6
@@ -8574,7 +8574,7 @@ USA,Weixin,Wang,21
 IND,S,Ramkumar,23
 USA,Chien-Cheng,Chiu   Chiu,23
 IND,Rahul,Aher,9
-COL,Ra√∫l,Cely,13
+COL,Ra˙l,Cely,13
 DEU,Ion,Paun,17
 BRA,Rafael,Miashiro,22
 NLD,Albert,Offerein Offerein,14
@@ -8594,7 +8594,7 @@ USA,Inderjit,Mayer,17
 IND,Lalithaprasanna,Ramanna,1
 IND,Archana,Joshi,1
 CHN,Shaswata,Mohapatra,1
-TUR,Ozan,Orta√ß,3
+TUR,Ozan,OrtaÁ,3
 IND,Alok,singh,5
 IND,Z.,Abdul Samath,6
 USA,Aarash,Hosseinpour,18
@@ -8642,7 +8642,7 @@ GBR,Alexander,Batoryk-Leliw,7
 USA,Nicole ,Brennan,9
 ITA,Giulia,Massaro,10
 IND,LOKESH,RAJPUT,21
-USA,Mois√©s,del Real,15
+USA,MoisÈs,del Real,15
 DEU,Alan,Salih,17
 ISR,Dudi,Zaltsman,18
 ISR,Yosef,Sigal,8
@@ -8733,7 +8733,7 @@ ITA,Francesco,Lauria,6
 DEU,Lisa,Gruber,17
 USA,Ben,Raymond,12
 MEX,Hugo,Garza,20
-MEX,Mart√≠n,Mares,22
+MEX,MartÌn,Mares,22
 USA,Kekai,Clarke,12
 IND,Venkatesh,Mangalagiri,18
 USA,Amanda,Yocum,19
@@ -8792,7 +8792,7 @@ SRB,Marko,Vlaskovic,10
 IND,kirubakaran,Chandran,11
 USA,Peter,Alekseyev,14
 IND,Varun ,Chawla,16
-MEX,Rub√©n,Carre√≥n Moreno,9
+MEX,RubÈn,CarreÛn Moreno,9
 IND,Vishal,Rane,1
 POL,Klaudia,Maciejewska,4
 USA,Grace,Moon,13
@@ -8803,7 +8803,7 @@ FRA,Alexander,Roper,16
 USA,Nwokocha,Iheanyichukwu,12
 USA,Mani,Bojja,1
 IND,Pavan,Maramreddy,1
-USA,◊ß◊ï◊®◊ï◊™,◊ó◊ô◊ô◊ù,4
+USA,?????,????,4
 IND,B,SUGANYA,7
 IND,Syed,Fanus,3
 IND,Seema,Shinde-Shaikh,6
@@ -8875,7 +8875,7 @@ USA,Arjun,Pathipati,1
 IND,Shivshanker,Hande,12
 USA,David,Liverseed,9
 USA,Simmi,Mani,11
-MEX,Jos√©,Cervantes Navarro,17
+MEX,JosÈ,Cervantes Navarro,17
 IRL,Darryl,Murray,7
 MYS,Saliman,Manap,7
 BRA,Julio,Rim,12
@@ -8928,7 +8928,7 @@ IND,Sarvesh,Peddi,5
 IND,Vikas,Kumar,7
 USA,Archana,Gollapudi,16
 KOR,Hoik,Seo,2
-ITA,Ma≈Çgorzata,Prorok,14
+ITA,Malgorzata,Prorok,14
 CRI,Guillermo,Alfaro,16
 IND,Aminul,Shaikh,2
 ISR,liran,bradichansky,4
@@ -8958,11 +8958,11 @@ USA,Andy,Sharma,22
 USA,Bhagyasree,Chebrolu,3
 USA,Mara,Hoaglin,11
 USA,Jill,Jermyn,9
-USA,Nguy·ªÖn,S∆°n,22
+USA,Nguy?n,Son,22
 IND,Pagidipally,Kumar,0
 USA,Doug,Blouin,13
 USA,Fan,Chen,13
-USA,Ra√∫l,Sosa,12
+USA,Ra˙l,Sosa,12
 POL,Abdul,Aziz,4
 IND,Shyam,Prasad,11
 USA,Loren,Hernandez,20
@@ -9018,7 +9018,7 @@ USA,Nathan,Gaar,18
 USA,Hongliang,Wang,22
 USA,Austin,Kirk,23
 IND,Kranthi,Bathula,5
-DEU,Ann-Kathrin,Bettenb√ºhl,6
+DEU,Ann-Kathrin,Bettenb¸hl,6
 IND,Anjali,N V,7
 FRA,Niklas,Pettersson,12
 ESP,Sergi,Vilaplana,22
@@ -9091,7 +9091,7 @@ USA,Elliott,Connor,1
 USA,michael,murillo,20
 IND,Divyang,Shah,14
 PRT,Akhila,Padiyar,9
-BRA,Alberto,Guimar√£es,18
+BRA,Alberto,Guimar„es,18
 IND,Shivani,Singh,4
 IND,Nitin,Shinde,12
 IND,Brijesh,Singh,1
@@ -9129,13 +9129,13 @@ IND,Aatur,Saxena,14
 IND,Gopal,Singh,0
 IND,mohmmad moinuddin,mullah,7
 IND,Sushil,Dehury,9
-ISR,◊°◊ï◊î◊ê,◊§◊®◊ó◊ê◊™,16
+ISR,????,?????,16
 USA,George,Patterson,16
 USA,Bingwen,Zhang,21
 USA,Maryann,Pettijohn,8
 BRA,Alexandre,Sano,16
 CHN,MINHONG,YANG,2
-TUR,Mehmet,Varlƒ±er,3
+TUR,Mehmet,Varlier,3
 USA,Gurdaman,Khaira,6
 PRT,Marcelly,Faria Rezende,10
 USA,Neha,Borse,9
@@ -9182,7 +9182,7 @@ IND,Naimish,Patel,1
 IND,Sivakumar ,Pinjala,9
 PRT,Amanda,Chaklian De Freitas Costa,15
 USA,Maithraye,Satyanarayan,14
-MEX,Jes√∫s,Pe√±a,17
+MEX,Jes˙s,PeÒa,17
 USA,Vanessa,Johnson,18
 USA,Dongyul,Chai,18
 IND,A,Priyanka,22
@@ -9244,14 +9244,14 @@ IND,G,Ramesh,0
 IND,Chandan,Mahajan,4
 USA,Richard,Ray,19
 USA,Yaping,Chen,19
-USA,Sebasti√°n,L√≥pez,16
+USA,Sebasti·n,LÛpez,16
 USA,Ryan,Ugland,13
 ARG,Martin,Labombarda,8
 USA,Ryan,Smith,21
 IND,TANVI,SINGH,13
 IND,K,Kumar,13
 FRA,Rachid,Kerfal,6
-ESP,S√°nchez,Cortina,7
+ESP,S·nchez,Cortina,7
 IND,vijay,bittu,10
 IND,Pooja,A,12
 USA,Lyndsay,Cornwell,12
@@ -9298,7 +9298,7 @@ IND,A.M,Pavithra,22
 CHN,Parbat,Bariya,23
 IND,Nikita,Ganotra,6
 IND,Anju,Joy,7
-CRI,Juan,Mart√≠nez L√≥pez,11
+CRI,Juan,MartÌnez LÛpez,11
 ISR,Tzur,Eliyahu,8
 IND,Shantanu,Juyal,11
 CHN,Xiangdong,Huang,2
@@ -9338,7 +9338,7 @@ USA,Natalie,Isenberg,13
 GBR,Sachith,Karunaratne,14
 IND,Rohit,Singh,9
 IND,Jasleen,Kaur,10
-ESP,Nicol√°s,Di Biase,13
+ESP,Nicol·s,Di Biase,13
 IND,SADDAM,KATBADI,14
 FRA,Khaled,BEN CHARRADA,10
 IND,Alisha,Sethi,1
@@ -9377,7 +9377,7 @@ USA,Tushar,Verma,20
 IND,Sumit,Singh,11
 USA,Iretiayo,Olusoga,12
 USA,Ashwini,Prakash,13
-USA,Ger√≥nimo,Pillot,20
+USA,GerÛnimo,Pillot,20
 IND,Mahesh,Mohan,11
 GBR,Lucy,Moat,17
 USA,Joseph,Choi,19
@@ -9389,7 +9389,7 @@ CHN,Linxiao,Weng,3
 IND,Krishna,Pichakuntla,8
 IND,Arun,Kumar,15
 CHN,YoungKwang,Na,2
-COL,Aura,Tob√≥n Tinjac√°,13
+COL,Aura,TobÛn Tinjac·,13
 USA,Suma,Gururaj,4
 USA,Skylour,Cline,19
 IND,rahul,rathore,23
@@ -9413,9 +9413,9 @@ CRI,Carlos,Arce,9
 IND,Anto,Prince,9
 IND,Abhisek,Roy,10
 IND,Mallika,Gowrishetti,11
-IRL,Ciar√°n,Wilson,4
+IRL,Ciar·n,Wilson,4
 ISR,Ran,Bleicher,3
-BRA,S√©rgio,Takeda,4
+BRA,SÈrgio,Takeda,4
 IND,Ann,Lye,0
 IND,A.,Mahammedraffi,1
 CHN,Cheng,Guo,4
@@ -9457,7 +9457,7 @@ ARG,Felipe,Tenaglia Giunta,8
 IND,gourab,sinha,0
 ZAF,Prathap,Chandragiri,3
 IND,Jeena,Joy,2
-TUR,Yƒ±ldƒ±rƒ±m,Balkaya,3
+TUR,Yildirim,Balkaya,3
 USA,Kimberly,Rodriguez,3
 DEU,Daniel,Ion,3
 CAN,Hediyeh,Mashhadi Avaz Tehrani,20
@@ -9468,14 +9468,14 @@ IND,Sudeep,Gaurkar,6
 IND,Siddarth,Sen,6
 IND,Katta,Geetha Sai Sree,8
 IND,Roli,Upadhyay,9
-DEU,Alexandru,MihƒÉiuc,16
+DEU,Alexandru,Mihaiuc,16
 IND,A.Kadhar,Hussain,8
 ISR,Natalia,Nichitina,9
 IND,Suman,Pradhan,13
-FRA,Alberto,Fern√°ndez De La Cruz,8
+FRA,Alberto,Fern·ndez De La Cruz,8
 IND,Uttam,Chand,13
 IND,Divya,Rajput,1
-CHN,Kiara,P√©rez,5
+CHN,Kiara,PÈrez,5
 IND,Rajat,Goyal,9
 IND,Krishna Chaitanya,Pottabathula,13
 IND,Alpesh,Master,22
@@ -9496,7 +9496,7 @@ CHN,Pavan,T S,1
 USA,John Paul,N,1
 ISR,Arbel,Liberman,3
 IND,Prashant,Wanjari,5
-FRA,DRAME,Foul√©matou,15
+FRA,DRAME,FoulÈmatou,15
 USA,Sujeet,Saw,2
 IND,D.,Anusha,3
 IND,Electrical And Electronics,Teja Relangi,6
@@ -9506,7 +9506,7 @@ USA,Kelsey,Taylor,18
 USA,Eric,Shiffman,20
 IND,Avaneesh,Pandey,4
 IND,Siddharth,Gaurav,6
-FRA,Micka√´l,Maitre,8
+FRA,MickaÎl,Maitre,8
 CAN,Jie,Ren,21
 IND,Suresh,Babu,2
 IND,Purva,Singh,10
@@ -9579,7 +9579,7 @@ USA,Achenyo,Otigba,13
 USA,Manoj,Kumar,11
 USA,Bernadette,Mattox,18
 BEL,ping-chun,li,12
-CRI,Adri√°n,Barquero Leit√≥n,11
+CRI,Adri·n,Barquero LeitÛn,11
 USA,Monica,South,18
 USA,Xiaohua,Chen,15
 USA,Michael,Rabie,15
@@ -9592,7 +9592,7 @@ IND,Rahul,Kadyan,1
 IND,Krishnanand,Joshi,1
 IND,Kawle,Govindrao,2
 IND,Chandra,Kant,2
-POL,Arkadiusz,Simi≈Ñski,15
+POL,Arkadiusz,Siminski,15
 POL,Malgorzata,Tomczak,9
 USA,Ranjith,Nair,9
 IRL,Oltian,Dervishi,10
@@ -9628,7 +9628,7 @@ CHN,Li,Wan,3
 IND,Katakam,Sandeep,11
 ISR,Alan,Morse,8
 TUN,Amine,Chalandi,11
-ARG,Osmar,P√©rez Vera,11
+ARG,Osmar,PÈrez Vera,11
 PRT,Figueira,Micael,4
 FRA,Benjamin,Guigui,17
 GBR,Joseph,Uaboi,19
@@ -9648,7 +9648,7 @@ IND,DIWAKAR,RATHINAKUMAR,9
 USA,Thania,Kendrick,9
 USA,Paul,Martinez,17
 USA,Steven,Buchko,20
-DEU,Raissa,M√§rz,12
+DEU,Raissa,M‰rz,12
 IND,divya,Thimmairaj.M,0
 IND,Linsha,Nayar,1
 IND,Ajay,Gupta,4
@@ -9720,7 +9720,7 @@ RUS,Victor,Polevoy,10
 IND,Bappa,Shee,11
 USA,Ankur,Jain,11
 IND,Vaibhav,Kulkarni,12
-ESP,Carlos,Cris√≥stomo,17
+ESP,Carlos,CrisÛstomo,17
 USA,Cameron,Long,20
 IND,Anjali,Bisoi,14
 IND,Arindam,Details,14
@@ -9738,7 +9738,7 @@ USA,Shikha,Rawat,13
 USA,Mukund,Savaliya,8
 IND,IRavi varnma,chinta,1
 IRL,Zhuoyan ,Wang,5
-COL,Andr√©s,Amado,14
+COL,AndrÈs,Amado,14
 IND,K.,Lakshmitheja,9
 IND,Vanitha,G R,10
 CHN,Huaxiu,FU,19
@@ -9792,7 +9792,7 @@ IND,Khushboo,Hotchandani,9
 IND,Joffy,Job,23
 USA,Shivam,Patel,2
 USA,Surya Abhijith Kumar,Devaraju,2
-ESP,Daniel,Miralda L√≥pez,6
+ESP,Daniel,Miralda LÛpez,6
 CHN,Luis,Mateos,14
 USA,Christopher,Nikolao,18
 GBR,Shicun,Yin,23
@@ -9828,7 +9828,7 @@ JAM,andre,barclay,8
 USA,Bhavin,Patel,14
 CHN,shashi kiran,f,7
 USA,Anita,Brett,9
-MEX,Luis,Garc√≠a S√°nchez,13
+MEX,Luis,GarcÌa S·nchez,13
 FRA,maud,Tezenas du Montcel,11
 MEX,Miren Garbine,Esparza Echevarria,15
 EGY,Mazen,ElHalfawy,10
@@ -9862,7 +9862,7 @@ IND,Sudhakar,Naguru,6
 IND,Viju Romeo,Titus,8
 IND,Stephen,Beri,11
 BRA,William,Peters,15
-COL,Andr√©s,Hern√°ndez Alzate,14
+COL,AndrÈs,Hern·ndez Alzate,14
 CHN,Abirami,Rajendran,13
 IND,Ankur,Agarwal,1
 ITA,Salvatore,Tuccio,9
@@ -9951,11 +9951,11 @@ IND,Swagato,Bhattacharya,13
 USA,Rabiya,Ahmed,19
 IND,G.,Bhuvaneshwari,11
 IND,Praphulla,Deshmukh,11
-MEX,Charlyne,Gu√©not,13
+MEX,Charlyne,GuÈnot,13
 USA,Shinri,Meltvedt,17
 USA,Kathryn,Olivier,15
 USA,Manel,Aidi,16
-CRI,Esteban,Herrera Cort√©s,20
+CRI,Esteban,Herrera CortÈs,20
 IND,Smriti,Srivastava,12
 TUR,Deniz,Civcar,12
 IND,T.,Nandan,23
@@ -9976,7 +9976,7 @@ IND,N,Emilson,2
 IND,Daniel,N,0
 IND,veerander kumar,goturi,1
 USA,Anthony,Di Leva,10
-MEX,Pablo,Hern√°ndez Mendoza,19
+MEX,Pablo,Hern·ndez Mendoza,19
 IND,Saket,Pathak,23
 USA,Alexander,Lewis,18
 IND,Ruturaj,Devkar,12

@@ -16,18 +16,21 @@ namespace TextMachineLearning
 {
     public partial class Form1 : Form
     {
-        private string SelectedFile = "";
+        private string SelectedTrainingFile = "";
+        private string SelectedTestFile = "";
+        private int NumberOfColumns = 0;
         private int SelectedClass = 0;
         private KNearestNeighbors knn;
         private KNearestNeighbors<string> knnStr;
         Dictionary<string, int> classlist;
         Dictionary<int, string> inverseClassList;
 
+        private Word2Vec wv; 
+
         public Form1()
         {
             InitializeComponent();
             comboBox2.SelectedIndex = 0;
-            comboBox3.SelectedIndex = 0;
             comboBox4.SelectedIndex = 0;
         }
 
@@ -47,27 +50,43 @@ namespace TextMachineLearning
                 tfp.Delimiters = delimiters;
                 fields = tfp.ReadFields();
 
-                if (fields.Length > 1) {
+                if (fields.Length > 1)
+                {
+                    if (SelectedTestFile != "" && fields.Length == NumberOfColumns)
+                    {
 
-                    SelectedFile = textBox1.Text;
-                    SelectedClass = 0;
-                    label2.Enabled = true;
-                    comboBox1.Enabled = true;
-                    comboBox1.DataSource = fields;
-                    label3.Enabled = true;
-                    comboBox2.Enabled = true;
-                    label4.Enabled = true;
-                    textBox2.Enabled = true;
+                        SelectedTrainingFile = textBox1.Text;
+                        SelectedClass = 0;
+                        label2.Enabled = true;
+                        comboBox1.Enabled = true;
+                        comboBox1.DataSource = fields;
+                        label3.Enabled = true;
+                        comboBox2.Enabled = true;
+                        label4.Enabled = true;
+                        textBox2.Enabled = true;
+                        label6.Enabled = true;
+                        comboBox4.Enabled = true;
 
-                    label5.Enabled = true;
-                    comboBox3.Enabled = true;
-                    label6.Enabled = true;
-                    comboBox4.Enabled = true;
-                    
-                }                
+                    }
+                    else
+                    {
 
-                tfp.Close();
-                ValidateFields();
+                        SelectedTrainingFile = textBox1.Text;
+                        NumberOfColumns = fields.Length;
+                        label2.Enabled = false;
+                        comboBox1.Enabled = false;
+                        label3.Enabled = false;
+                        comboBox2.Enabled = false;
+                        label4.Enabled = false;
+                        textBox2.Enabled = false;
+                        label6.Enabled = false;
+                        comboBox4.Enabled = false;
+                    }
+
+                    tfp.Close();
+                    ValidateFields();
+                }
+                
             }
             catch (Exception ex) {
                 label2.Enabled = false;
@@ -76,12 +95,79 @@ namespace TextMachineLearning
                 comboBox2.Enabled = false;
                 label4.Enabled = false;
                 textBox2.Enabled = false;
-                label5.Enabled = false;
-                comboBox3.Enabled = false;
+                label6.Enabled = false;
+                comboBox4.Enabled = false;
+            }
+
+        }
+
+        
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fbd = new OpenFileDialog();
+            DialogResult result = fbd.ShowDialog();
+            textBox8.Text = fbd.FileName;
+
+            try
+            {
+                string[] delimiters = { "," };
+                string[] fields;
+                TextFieldParser tfp;
+                tfp = new TextFieldParser(textBox8.Text);
+                tfp.HasFieldsEnclosedInQuotes = true;
+                tfp.Delimiters = delimiters;
+                fields = tfp.ReadFields();
+
+                if (fields.Length > 1)
+                {
+                    if (SelectedTrainingFile != "" && fields.Length == NumberOfColumns)
+                    {
+
+                        SelectedTestFile = textBox1.Text;
+                        SelectedClass = 0;
+                        label2.Enabled = true;
+                        comboBox1.Enabled = true;
+                        comboBox1.DataSource = fields;
+                        label3.Enabled = true;
+                        comboBox2.Enabled = true;
+                        label4.Enabled = true;
+                        textBox2.Enabled = true;
+                        label6.Enabled = true;
+                        comboBox4.Enabled = true;
+
+                    }
+                    else
+                    {
+                        SelectedTestFile = textBox1.Text;
+                        NumberOfColumns = fields.Length;
+                        label2.Enabled = false;
+                        comboBox1.Enabled = false;
+                        label3.Enabled = false;
+                        comboBox2.Enabled = false;
+                        label4.Enabled = false;
+                        textBox2.Enabled = false;
+                        label6.Enabled = false;
+                        comboBox4.Enabled = false;
+                    }
+
+
+                    tfp.Close();
+                    ValidateFields();
+                }
+            }
+            catch (Exception ex)
+            {
+                label2.Enabled = false;
+                comboBox1.Enabled = false;
+                label3.Enabled = false;
+                comboBox2.Enabled = false;
+                label4.Enabled = false;
+                textBox2.Enabled = false;
                 label6.Enabled = false;
                 comboBox4.Enabled = false;
             }
         }
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -118,11 +204,11 @@ namespace TextMachineLearning
             SelectedClass = comboBox1.SelectedIndex;
         }
 
-        private string GetString(string[] fields) { 
+        private string GetString(string[] fields, string separator) { 
             string result = "";
             for (int i = 0; i < fields.Length; ++i) {
                 if (i != SelectedClass) {
-                    result += fields[i];
+                    result += fields[i].ToUpper() + separator;
                 }
             }
             return result;
@@ -130,13 +216,19 @@ namespace TextMachineLearning
 
         private void button2_Click(object sender, EventArgs e)
         {
+            wv = new Word2Vec(3);
+
+            textBox3.Text = "Processing";
             
             //Get list of classes, input and output vectors
             classlist = new Dictionary<string, int>();
             inverseClassList = new Dictionary<int, string>();
             List<List<double>> IntMatrixInputs = new List<List<double>>();
             List<string> stringInputs = new List<string>();
+
             List<int> IntOutputs = new List<int>();
+
+            bool frequency = true;
  
             int temp = 0;
             string[] delimiters = { "," };
@@ -158,44 +250,37 @@ namespace TextMachineLearning
                         inverseClassList[indexClass] = fields[SelectedClass];
                         ++indexClass;
                     }
-                    stringInputs.Add(GetString(fields));
-                    IntMatrixInputs.Add(Word2Vec.Transform(GetString(fields), true).ToList()); //getLettersVector.toList();
+                    /*
+                    stringInputs.Add(GetString(fields,""));
+                    IntMatrixInputs.Add(Word2Vec.Transform(GetString(fields,""), frequency).ToList()); //getLettersVector.toList();
+                    */
+
+                    stringInputs.Add(GetString(fields, " "));
+                    wv.addSentence(GetString(fields," "));
                     IntOutputs.Add(classlist[fields[SelectedClass]]);
 
                     ++indexRows;
                 }
             }
 
-            int trainIndex = (int)(indexRows * 0.75);
-
+            wv.ComputeVectors();
+            
             List<string> strInputsTrain = new List<string>(); 
             List<string> strInputsTest = new List<string>();
 
-            double[][] IntInputsTrain = new double[trainIndex][];
-            double[][] IntInputsTest = new double[IntMatrixInputs.Count-trainIndex][];
-
-            int[] outputsTrain = new int[trainIndex];
-            int[] outputsTest = new int[IntMatrixInputs.Count - trainIndex];
-
+            double[][] IntInputsTrain = new double[indexRows][];
+   
+            int[] outputsTrain = new int[indexRows];
+   
             double [][] IntInputs = new double[IntMatrixInputs.Count][];
-            for (int i =0; i < IntInputs.Length; ++i){
-                 IntInputs[i] = IntMatrixInputs[i].ToArray();
+            for (int i =0; i < indexRows; ++i){
+                 //IntInputs[i] = IntMatrixInputs[i].ToArray();
 
-                 if (i < trainIndex)
-                 {
-                     IntInputsTrain[i] = IntMatrixInputs[i].ToArray();
+                 IntInputsTrain[i] = wv.GetNGramsVector(stringInputs[i]);//IntMatrixInputs[i].ToArray();
                      strInputsTrain.Add(stringInputs[i]);
-
                      outputsTrain[i] = IntOutputs[i];
-                 }
-                 else {
-                     IntInputsTest[i-trainIndex] = IntMatrixInputs[i].ToArray();
-                     strInputsTest.Add(stringInputs[i]);
-                     outputsTest[i-trainIndex] = IntOutputs[i];
-                 }
+                
             }
-
-            textBox3.Text = "Processing";
 
             if (comboBox2.SelectedItem.ToString() == "Levenshtein")
             {
@@ -221,39 +306,55 @@ namespace TextMachineLearning
 
             int positiveValue = 1;
             int negativeValue = 0;
-            
-            for (int i = 0; i < strInputsTest.Count; ++i) {
-                int answer;
-                if (comboBox2.SelectedItem.ToString() == "Levenshtein")
+
+            tfp = new TextFieldParser(textBox8.Text);
+            tfp.HasFieldsEnclosedInQuotes = true;
+            tfp.Delimiters = delimiters;
+            fields = tfp.ReadFields();
+            indexRows = 0;
+            while (!tfp.EndOfData)
+            {
+                fields = tfp.ReadFields();
+                if (fields[SelectedClass] != "")
                 {
-                    answer = knnStr.Compute(strInputsTest[i]);
+                    int answer;
+                    if (comboBox2.SelectedItem.ToString() == "Levenshtein")
+                    {
+                        answer = knnStr.Compute(GetString(fields," "));
+                    }
+                    else
+                    {
+                        answer = knn.Compute(wv.GetNGramsVector(GetString(fields," ")));
+                    }
+
                     
-                }
-                else {
-                    answer = knn.Compute(IntInputsTest[i]);
-                }
+                    expected.Add(classlist[fields[SelectedClass]]);
+                    predicted.Add(answer);
 
-                expected.Add(outputsTest[i]);
-                predicted.Add(answer);
-
-                if (answer == outputsTest[i])
-                {
-                    correctCount++;
+                    if (answer == classlist[fields[SelectedClass]])
+                    {
+                        correctCount++;
+                    }
+                    else
+                    {
+                        wrongCount++;
+                    }
+                    
+                    ++indexRows;
                 }
-                else {
-                    wrongCount++;
-                }
-
             }
 
             ConfusionMatrix matrix = new ConfusionMatrix(predicted.ToArray(), expected.ToArray(), positiveValue, negativeValue);
 
+            GeneralConfusionMatrix matrixGen = new GeneralConfusionMatrix(classlist.Count, expected.ToArray(), predicted.ToArray());
 
             textBox3.Text = DateTime.Now + " Completed    Number of instances: " + indexRows + "    Number of classes: " + classlist.Count;
             textBox3.Text += "   Correctly classified: " + correctCount + "   Wrongly classified: " + wrongCount;
             textBox3.Text += "   Accuracy " + matrix.Accuracy;
 
-            paintMatrix(matrix);
+            //textBox8.Text = "Rows " + matrixGen.Matrix.Rows();
+
+            paintMatrix(matrixGen, inverseClassList);
            
             label8.Text = "-";
         }
@@ -274,23 +375,29 @@ namespace TextMachineLearning
             label8.Text = inverseClassList[answer];
         }
 
-        private void paintMatrix(ConfusionMatrix matrix) 
+        private void paintMatrix(GeneralConfusionMatrix matrix, Dictionary<int,string> classes) 
         {
-            
-            
-            /*for (int i = 0; i < matrix.Matrix.Length; i++) 
-            {
-                for (int j = 0; j < matrix.Matrix.Length; j++)
-                {
-                    textBox8.Text += matrix.Matrix[i, j] + ",  ";
+            string outputFile = SelectedTestFile.Replace(".csv","_Result_"+ DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".csv");
+            StreamWriter file = new StreamWriter(outputFile);
+            string line = "";
+            for (int i = 0; i < classes.Count; ++i) {
+                line += "," + classes[i];
+            }
+
+            file.WriteLine(line);
+
+            for (int i = 0; i < matrix.Matrix.Rows(); ++i) {
+                line = classes[i];
+                for (int j = 0; j < matrix.Matrix.Columns(); ++j) {
+                    line += "," + matrix.Matrix[i, j];      
                 }
-                textBox8.Text += "  ** NEW LINE ** "; 
-            }*/
-            textBox8.Text = matrix.Matrix.Length.ToString() + "  -  ";
-            textBox8.Text += matrix.Matrix.LongLength.ToString() + "  -  ";
-            textBox8.Text += matrix.ToString();
+                file.WriteLine(line);
+            }
+
+            file.Flush();
+            file.Close();
         }
 
-    }
+            }
 }
 
