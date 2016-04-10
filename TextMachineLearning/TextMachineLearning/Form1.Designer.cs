@@ -46,6 +46,11 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,7 +137,7 @@
             this.comboBox2.Items.AddRange(new object[] {
             "Euclidean",
             "Cosine",
-            "Levenhein"});
+            "Levenshtein"});
             this.comboBox2.Location = new System.Drawing.Point(376, 59);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
@@ -155,7 +160,7 @@
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(16, 155);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(647, 197);
+            this.panel1.Size = new System.Drawing.Size(647, 138);
             this.panel1.TabIndex = 10;
             // 
             // textBox3
@@ -163,7 +168,7 @@
             this.textBox3.Location = new System.Drawing.Point(15, 15);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(616, 168);
+            this.textBox3.Size = new System.Drawing.Size(616, 110);
             this.textBox3.TabIndex = 0;
             this.textBox3.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
@@ -232,11 +237,56 @@
             this.textBox4.Size = new System.Drawing.Size(48, 20);
             this.textBox4.TabIndex = 16;
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(67, 317);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(110, 20);
+            this.textBox5.TabIndex = 17;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(195, 317);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(124, 20);
+            this.textBox6.TabIndex = 18;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(335, 317);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(35, 20);
+            this.textBox7.TabIndex = 19;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(391, 305);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(68, 42);
+            this.button3.TabIndex = 20;
+            this.button3.Text = "Classify";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(483, 320);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(10, 13);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 364);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.comboBox4);
@@ -283,6 +333,11 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label8;
     }
 }
 
