@@ -77,6 +77,8 @@ namespace TextMachineLearning
             // instance, only its nearest neighbor will be used to cast a new
             // decision. 
 
+
+            
             // In order to compare strings, we will be using Levenshtein's string distance
             KNearestNeighbors<string> knn = new KNearestNeighbors<string>(k: 1, classes: 2,
                 inputs: inputs, outputs: outputs, distance: Distance.Levenshtein);
