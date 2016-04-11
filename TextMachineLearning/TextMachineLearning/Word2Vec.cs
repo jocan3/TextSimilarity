@@ -76,6 +76,36 @@ namespace TextMachineLearning
             }
         }
 
+        public string transformInverse(double [] sentence, string type)
+        {
+            string result = "";
+            if (type == "3-grams")
+            {
+                for (int i =0; i < sentence.Length; ++i) {
+                    result += (sentence[i] > 0) ? NGramsVector[i] : "";
+                    result += " ";
+                }
+
+            }
+            else if (type == "words")
+            {
+                for (int i = 0; i < sentence.Length; ++i)
+                {
+                    result += (sentence[i] > 0) ? WordsVector[i] : "";
+                    result += " ";
+                }
+            }
+            else
+            {
+                for (int i = 0; i < sentence.Length; ++i)
+                {
+                    result += (sentence[i] > 0) ? (char)(i + 65) + "" : "";
+                }
+            }
+
+            return result;
+        }
+
         public double [] GetWordsVector(string sentence){
             double[] result = new double[WordsVector.Length];
             for (int i = 0; i < result.Length; ++i) {

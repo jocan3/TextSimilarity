@@ -482,6 +482,36 @@ namespace TextMachineLearning
 
         }
 
+        private void computebtn_Click(object sender, EventArgs e)
+        {
+            int[] output;
+            knnTxt.Text = "";
+            if (comboBox2.SelectedItem.ToString() == "Levenshtein")
+            {
+                var answer = knnStr.GetNearestNeighbors(tesTxt.Text, out output);
+                for (int i = 0; i < answer.Length; ++i) {
+                    knnTxt.Text += answer[i] + "," + inverseClassList[output[i]] + Environment.NewLine;
+                }
+
+                int classInt = knnStr.Compute(tesTxt.Text);
+                label5.Text = inverseClassList[classInt];
+
+            }
+            else
+            {
+                var answer = knn.GetNearestNeighbors(wv.transform(tesTxt.Text, comboBox4.SelectedItem.ToString()), out output);
+                for (int i = 0; i < answer.Length; ++i)
+                {
+                    knnTxt.Text += wv.transformInverse(answer[i], comboBox4.SelectedItem.ToString()) + "," + inverseClassList[output[i]] + Environment.NewLine;
+                }
+
+                int classInt = knn.Compute(wv.transform(tesTxt.Text, comboBox4.SelectedItem.ToString()));
+                label5.Text = inverseClassList[classInt];
+                //answer = knn.Compute(wv.transform(GetString(fields, " "), comboBox4.SelectedItem.ToString()));
+            }
+
+        }
+
 
             }
 }

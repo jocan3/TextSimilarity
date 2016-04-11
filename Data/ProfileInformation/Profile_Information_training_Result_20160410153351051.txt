@@ -1,1 +1,0 @@
-04/10/2016 3:33:51 PM   k: 100   Distance: Euclidean   Vector: letters   Completed    Number of instances: 3001    Number of classes: 202   Correctly classified: 197   Wrongly classified: 2804   Standard Error 0.00385132672152413   Accuracy 0.739086971009663   Conf. Matrix TP:13 FP:9, FN:774 TN:2205

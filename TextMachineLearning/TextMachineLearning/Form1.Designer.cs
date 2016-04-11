@@ -46,6 +46,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.tesTxt = new System.Windows.Forms.TextBox();
+            this.computebtn = new System.Windows.Forms.Button();
+            this.knnTxt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,7 +159,7 @@
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(14, 152);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(647, 141);
+            this.panel1.Size = new System.Drawing.Size(647, 100);
             this.panel1.TabIndex = 10;
             // 
             // textBox3
@@ -163,7 +167,7 @@
             this.textBox3.Location = new System.Drawing.Point(18, 16);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(616, 110);
+            this.textBox3.Size = new System.Drawing.Size(616, 67);
             this.textBox3.TabIndex = 0;
             this.textBox3.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
@@ -226,11 +230,51 @@
             this.label9.TabIndex = 22;
             this.label9.Text = "Test file";
             // 
+            // tesTxt
+            // 
+            this.tesTxt.Location = new System.Drawing.Point(14, 297);
+            this.tesTxt.Name = "tesTxt";
+            this.tesTxt.Size = new System.Drawing.Size(283, 20);
+            this.tesTxt.TabIndex = 25;
+            // 
+            // computebtn
+            // 
+            this.computebtn.Location = new System.Drawing.Point(303, 296);
+            this.computebtn.Name = "computebtn";
+            this.computebtn.Size = new System.Drawing.Size(68, 23);
+            this.computebtn.TabIndex = 26;
+            this.computebtn.Text = "Compute";
+            this.computebtn.UseVisualStyleBackColor = true;
+            this.computebtn.Click += new System.EventHandler(this.computebtn_Click);
+            // 
+            // knnTxt
+            // 
+            this.knnTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 4.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.knnTxt.Location = new System.Drawing.Point(379, 258);
+            this.knnTxt.Multiline = true;
+            this.knnTxt.Name = "knnTxt";
+            this.knnTxt.Size = new System.Drawing.Size(269, 104);
+            this.knnTxt.TabIndex = 27;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(146, 335);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(20, 26);
+            this.label5.TabIndex = 28;
+            this.label5.Text = "-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 325);
+            this.ClientSize = new System.Drawing.Size(678, 374);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.knnTxt);
+            this.Controls.Add(this.computebtn);
+            this.Controls.Add(this.tesTxt);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label9);
@@ -277,6 +321,10 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tesTxt;
+        private System.Windows.Forms.Button computebtn;
+        private System.Windows.Forms.TextBox knnTxt;
+        private System.Windows.Forms.Label label5;
     }
 }
 
