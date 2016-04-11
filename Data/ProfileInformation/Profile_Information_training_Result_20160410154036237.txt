@@ -1,0 +1,1 @@
+04/10/2016 3:40:36 PM   k: 100   Distance: Levenshtein   Vector: letters   Completed    Number of instances: 3001    Number of classes: 202   Correctly classified: 282   Wrongly classified: 2719   Standard Error 0.00484299153026272   Accuracy 0.736087970676441   Conf. Matrix TP:18 FP:23, FN:769 TN:2191

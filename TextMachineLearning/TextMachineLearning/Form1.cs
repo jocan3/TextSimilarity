@@ -123,7 +123,7 @@ namespace TextMachineLearning
                     if (SelectedTrainingFile != "" && fields.Length == NumberOfColumns)
                     {
 
-                        SelectedTestFile = textBox1.Text;
+                        SelectedTestFile = textBox8.Text;
                         SelectedClass = 0;
                         label2.Enabled = true;
                         comboBox1.Enabled = true;
@@ -138,7 +138,7 @@ namespace TextMachineLearning
                     }
                     else
                     {
-                        SelectedTestFile = textBox1.Text;
+                        SelectedTestFile = textBox8.Text;
                         NumberOfColumns = fields.Length;
                         label2.Enabled = false;
                         comboBox1.Enabled = false;
@@ -176,7 +176,7 @@ namespace TextMachineLearning
 
         private void ValidateFields() {
             int temp;
-            if (Int32.TryParse(textBox2.Text, out temp) && ((Int32.TryParse(textBox4.Text, out temp) && comboBox4.SelectedIndex == 1) || (comboBox4.SelectedIndex == 0)))
+            if (Int32.TryParse(textBox2.Text, out temp))
             {
                 button2.Enabled = true;
             }
@@ -186,19 +186,7 @@ namespace TextMachineLearning
             }
         }
 
-        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (comboBox4.SelectedIndex == 1)
-            {
-                textBox4.Enabled = true;
-                label7.Enabled = true;
-            }
-            else {
-                textBox4.Enabled = false;
-                label7.Enabled = false;
-            }
-        }
-
+ 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             SelectedClass = comboBox1.SelectedIndex;
@@ -276,7 +264,7 @@ namespace TextMachineLearning
             for (int i =0; i < indexRows; ++i){
                  //IntInputs[i] = IntMatrixInputs[i].ToArray();
 
-                 IntInputsTrain[i] = wv.GetNGramsVector(stringInputs[i]);//IntMatrixInputs[i].ToArray();
+                IntInputsTrain[i] = wv.transform(stringInputs[i], comboBox4.SelectedItem.ToString()); //IntMatrixInputs[i].ToArray();
                      strInputsTrain.Add(stringInputs[i]);
                      outputsTrain[i] = IntOutputs[i];
                 
@@ -324,7 +312,7 @@ namespace TextMachineLearning
                     }
                     else
                     {
-                        answer = knn.Compute(wv.GetNGramsVector(GetString(fields," ")));
+                        answer = knn.Compute(wv.transform(GetString(fields," "),comboBox4.SelectedItem.ToString()));
                     }
 
                     
@@ -344,13 +332,18 @@ namespace TextMachineLearning
                 }
             }
 
-            ConfusionMatrix matrix = new ConfusionMatrix(predicted.ToArray(), expected.ToArray(), positiveValue, negativeValue);
+            ConfusionMatrix matrix = new ConfusionMatrix(predicted.ToArray(), expected.ToArray());
 
             GeneralConfusionMatrix matrixGen = new GeneralConfusionMatrix(classlist.Count, expected.ToArray(), predicted.ToArray());
 
-            textBox3.Text = DateTime.Now + " Completed    Number of instances: " + indexRows + "    Number of classes: " + classlist.Count;
+            
+
+            textBox3.Text = DateTime.Now + "   " + "k: " + textBox2.Text + "   Distance: " + comboBox2.SelectedItem.ToString() + "   Vector: " + comboBox4.SelectedItem.ToString();
+            textBox3.Text += "   Number of instances: " + indexRows + "    Number of classes: " + classlist.Count;
             textBox3.Text += "   Correctly classified: " + correctCount + "   Wrongly classified: " + wrongCount;
-            textBox3.Text += "   Accuracy " + matrix.Accuracy;
+            textBox3.Text += "   Standard Error " + matrixGen.StandardError;
+            textBox3.Text += "   Accuracy " + (double)((double)correctCount / (double)indexRows);
+            //textBox3.Text += "   Conf. Matrix " + matrix;
 
             //textBox8.Text = "Rows " + matrixGen.Matrix.Rows();
 
@@ -359,25 +352,17 @@ namespace TextMachineLearning
             label8.Text = "-";
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int answer = 0;
-            if (comboBox2.SelectedItem.ToString() == "Levenshtein")
-            {
-                answer = knnStr.Compute(textBox5.Text + textBox6.Text + textBox7.Text);
-            }
-            else
-            {
-                double[] input = Word2Vec.Transform(textBox5.Text + textBox6.Text + textBox7.Text, false);
-                answer = knn.Compute(input);
-            }
-
-            label8.Text = inverseClassList[answer];
-        }
+        
 
         private void paintMatrix(GeneralConfusionMatrix matrix, Dictionary<int,string> classes) 
         {
-            string outputFile = SelectedTestFile.Replace(".csv","_Result_"+ DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".csv");
+            string logfile = SelectedTestFile.Replace(".csv", "_Result_" + DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".txt");
+            StreamWriter log = new StreamWriter(logfile);
+            log.WriteLine(textBox3.Text);
+            log.Flush();
+            log.Close();
+
+            string outputFile = SelectedTestFile.Replace(".csv","_Matrix_"+ DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".csv");
             StreamWriter file = new StreamWriter(outputFile);
             string line = "";
             for (int i = 0; i < classes.Count; ++i) {
@@ -396,7 +381,92 @@ namespace TextMachineLearning
 
             file.Flush();
             file.Close();
+
+            createMatrix(outputFile);
         }
+
+
+        public void createMatrix(string fileName)
+        {
+            string[] delimiters = { "," };
+            string[] fields;
+            TextFieldParser tfp;
+
+            string file = fileName;
+            tfp = new TextFieldParser(file);
+            StreamWriter sw = new StreamWriter(file.Replace(".csv", "_clean.csv"));
+            int threshold = 10;
+
+            tfp.HasFieldsEnclosedInQuotes = true;
+            tfp.Delimiters = delimiters;
+            fields = tfp.ReadFields();
+            string line = fields[0];
+
+            List<List<string>> strMatrix = new List<List<string>>();
+
+            strMatrix.Add(new List<string>());
+            strMatrix[0].Add(fields[0]);
+
+            Dictionary<string, int> classList = new Dictionary<string, int>();
+            for (int i = 1; i < fields.Length; ++i)
+            {
+
+                classList[fields[i]] = 0;
+                line += "," + fields[i];
+                strMatrix[0].Add(fields[i]);
+            }
+
+            //            sw.WriteLine(line);
+            int temp;
+
+            int idx = 1;
+            List<int> indexRemove = new List<int>();
+
+            while (!tfp.EndOfData)
+            {
+                fields = tfp.ReadFields();
+                line = fields[0];
+                temp = 0;
+                for (int i = 1; i < fields.Length; ++i)
+                {
+                    line += "," + fields[i];
+                    temp += Int32.Parse(fields[i]);
+                    classList[fields[0]] += Int32.Parse(fields[i]);
+
+                }
+
+                if (temp > threshold)
+                {
+                    strMatrix.Add(line.Split(',').ToList());
+                    //sw.WriteLine(line);               
+                }
+                else
+                {
+                    indexRemove.Add(idx);
+                }
+                ++idx;
+            }
+
+
+            for (int i = 0; i < strMatrix.Count; ++i)
+            {
+                line = strMatrix[i][0];
+                for (int j = 1; j < strMatrix[0].Count; ++j)
+                {
+                    if (!indexRemove.Contains(j))
+                    {
+                        line += "," + strMatrix[i][j];
+                    }
+                }
+                sw.WriteLine(line);
+            }
+
+            tfp.Close();
+            sw.Flush();
+            sw.Close();
+
+        }
+
 
             }
 }

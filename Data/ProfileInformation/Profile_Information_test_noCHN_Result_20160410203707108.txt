@@ -1,0 +1,1 @@
+04/10/2016 8:37:07 PM   k: 25   Distance: Euclidean   Vector: letters   Number of instances: 1257    Number of classes: 201   Correctly classified: 130   Wrongly classified: 1127   Standard Error 0.00852812049725595   Accuracy 0.103420843277645

@@ -1,0 +1,1 @@
+04/10/2016 4:53:26 PM   k: 2   Distance: Euclidean   Vector: words   Completed    Number of instances: 300    Number of classes: 2   Correctly classified: 159   Wrongly classified: 141   Standard Error 0.0537437280829608   Accuracy 0

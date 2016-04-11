@@ -30,7 +30,7 @@ namespace TextMachineLearning
 
 
         public void addSentence(string sentence) {
-            
+            sentence = RemoveSpecialCharacters(sentence);
             var sentenceWithoutStopWords = String.Join(" ", sentence.Split(' ').Where(x => !StopWords.IsMatch(x.ToLower().Trim())));
             string[] result = sentenceWithoutStopWords.Trim().Split(' ');
            // string sentenceWithoutStopWords = "";
@@ -59,6 +59,23 @@ namespace TextMachineLearning
             NGramsVector = ngrams.ToArray();
         }
 
+        public string RemoveSpecialCharacters(string str) {
+            return str.Replace("*", " ").Replace(",", " ").Replace("(", " ").Replace(")", " ").Replace("-"," ").Replace("+"," ");
+        }
+
+        public double[] transform(string sentence, string type) {
+            sentence = RemoveSpecialCharacters(sentence);//.Replace("*", "").Replace(",", "").Replace("(", "").Replace(")", "");
+            sentence = String.Join(" ", sentence.Split(' ').Where(x => !StopWords.IsMatch(x.ToLower().Trim())));
+            
+            if (type == "3-grams"){
+                return GetNGramsVector(sentence);
+            }else if (type == "words"){
+                return GetWordsVector(sentence);
+            }else{
+                return GetLettersVector(sentence);
+            }
+        }
+
         public double [] GetWordsVector(string sentence){
             double[] result = new double[WordsVector.Length];
             for (int i = 0; i < result.Length; ++i) {
@@ -68,17 +85,53 @@ namespace TextMachineLearning
             return result;
         }
 
+        public double[] GetLettersVector(string word)
+        {
+            word = word.Replace(" ", "");
+
+            word = word.ToLower();
+            char[] wordVec = word.ToCharArray();
+            double[] vectorResult = {
+                                    0,0,0,0,0,0,0,0,
+                                    0,0,0,0,0,0,0,0,
+                                    0,0,0,0,0,0,0,0,
+                                    0,0,0
+                                 };
+            char[] alphabet = { 
+                                  'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 
+                                  'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 
+                                  'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 
+                                  'x', 'y', 'z'
+                              };
+
+            for (int i = 0; i < wordVec.Length; i++)
+            {
+                for (int j = 0; j < alphabet.Length; j++)
+                {
+                    if (alphabet[j].Equals(wordVec[i]))
+                    {
+                            vectorResult[j] = vectorResult[j] + 1;
+
+                    }
+                }
+            }
+            return vectorResult;
+        }
+
+
+
         public double[] GetNGramsVector(string sentence)
         {
             sentence = sentence.Replace(" ", "");
             double[] result = new double[NGramsVector.Length];
             for (int i = 0; i < result.Length; ++i)
             {
-                result[i] = Regex.Matches(sentence, WordsVector[i]).Count;
+                result[i] = Regex.Matches(sentence, NGramsVector[i]).Count;
             }
 
             return result;
         }
+
 
         public static double[] Transform(string word, bool treshold)
         {

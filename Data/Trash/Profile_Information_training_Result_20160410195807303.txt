@@ -1,0 +1,1 @@
+04/10/2016 7:58:07 PM   k: 25   Distance: Levenshtein   Vector: letters   Number of instances: 1330    Number of classes: 202   Correctly classified: 270   Wrongly classified: 1060   Standard Error 0.0108855544592216   Accuracy 0.203007518796992
