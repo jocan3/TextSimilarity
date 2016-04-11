@@ -467,9 +467,8 @@ namespace TextMachineLearning
                             line += "," + strMatrix[i][j];
                         }
                         else {
-                            double dtemp = (double)((Double.Parse(strMatrix[i][j]) - (double)classMin[strMatrix[i][0]]) / ((double)classMax[strMatrix[i][0]] - (double)classMin[strMatrix[i][0]]));
-                            //double dtemp = ((0.9 - 0.1) / Double.Parse(strMatrix[i][j]) - (double)classMin[strMatrix[i][0]]) * ((double)classMax[strMatrix[i][0]] - (double)classMin[strMatrix[i][0]]) + (double)classMin[strMatrix[i][0]];
-                            
+                            //double dtemp = (double)((Double.Parse(strMatrix[i][j]) - (double)classMin[strMatrix[i][0]]) / ((double)classMax[strMatrix[i][0]] - (double)classMin[strMatrix[i][0]]));
+                            double dtemp = Double.Parse(strMatrix[i][j]) / (double)classList[strMatrix[i][0]];
                             line += "," + dtemp;
                         }
                     }

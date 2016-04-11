@@ -60,7 +60,7 @@ namespace TextMachineLearning
         }
 
         public string RemoveSpecialCharacters(string str) {
-            return str.Replace("*", " ").Replace(",", " ").Replace("(", " ").Replace(")", " ").Replace("-", " ").Replace("+", " ").Replace("!", " ").Replace("?", " ").Replace(@"\", " ").Replace("/", " ");
+            return str.Replace("*", " ").Replace(",", " ").Replace("(", " ").Replace(")", " ").Replace("-", " ").Replace("+", " ").Replace("!", " ").Replace("?", " ").Replace(@"\", " ").Replace("/", " ").Replace("[", " ").Replace("]", " ");
         }
 
         public double[] transform(string sentence, string type) {
