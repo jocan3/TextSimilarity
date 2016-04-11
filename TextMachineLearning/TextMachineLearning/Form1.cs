@@ -408,10 +408,16 @@ namespace TextMachineLearning
             strMatrix[0].Add(fields[0]);
 
             Dictionary<string, int> classList = new Dictionary<string, int>();
+            Dictionary<string, int> classMax = new Dictionary<string, int>();
+            Dictionary<string, int> classMin = new Dictionary<string, int>();
+
+
             for (int i = 1; i < fields.Length; ++i)
             {
 
                 classList[fields[i]] = 0;
+                classMax[fields[i]] = -1;
+                classMin[fields[i]] = 99999;
                 line += "," + fields[i];
                 strMatrix[0].Add(fields[i]);
             }
@@ -432,7 +438,8 @@ namespace TextMachineLearning
                     line += "," + fields[i];
                     temp += Int32.Parse(fields[i]);
                     classList[fields[0]] += Int32.Parse(fields[i]);
-
+                    classMax[fields[0]] = (Int32.Parse(fields[i]) > classMax[fields[0]]) ? Int32.Parse(fields[i]) : classMax[fields[0]];
+                    classMin[fields[0]] = (Int32.Parse(fields[i]) < classMin[fields[0]]) ? Int32.Parse(fields[i]) : classMin[fields[0]];
                 }
 
                 if (temp > threshold)
@@ -455,7 +462,16 @@ namespace TextMachineLearning
                 {
                     if (!indexRemove.Contains(j))
                     {
-                        line += "," + strMatrix[i][j];
+                        if (i == 0)
+                        {
+                            line += "," + strMatrix[i][j];
+                        }
+                        else {
+                            double dtemp = (double)((Double.Parse(strMatrix[i][j]) - (double)classMin[strMatrix[i][0]]) / ((double)classMax[strMatrix[i][0]] - (double)classMin[strMatrix[i][0]]));
+                            //double dtemp = ((0.9 - 0.1) / Double.Parse(strMatrix[i][j]) - (double)classMin[strMatrix[i][0]]) * ((double)classMax[strMatrix[i][0]] - (double)classMin[strMatrix[i][0]]) + (double)classMin[strMatrix[i][0]];
+                            
+                            line += "," + dtemp;
+                        }
                     }
                 }
                 sw.WriteLine(line);
