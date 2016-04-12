@@ -82,8 +82,7 @@ namespace TextMachineLearning
             if (type == "3-grams")
             {
                 for (int i =0; i < sentence.Length; ++i) {
-                    result += (sentence[i] > 0) ? NGramsVector[i] : "";
-                    result += " ";
+                    result += (sentence[i] > 0) ? NGramsVector[i]+" " : "";
                 }
 
             }
@@ -91,8 +90,7 @@ namespace TextMachineLearning
             {
                 for (int i = 0; i < sentence.Length; ++i)
                 {
-                    result += (sentence[i] > 0) ? WordsVector[i] : "";
-                    result += " ";
+                    result += (sentence[i] > 0) ? WordsVector[i]+" " : "";
                 }
             }
             else

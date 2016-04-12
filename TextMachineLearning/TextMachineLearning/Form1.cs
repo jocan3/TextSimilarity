@@ -202,6 +202,17 @@ namespace TextMachineLearning
             return result;
         }
 
+        private bool NotNullFields(string[] fields)
+        {
+            bool result = true;
+            foreach (var f in fields)
+            {
+                result = result & (f.Trim().Length > 0);
+            }
+            return result;
+        }
+
+
         private void button2_Click(object sender, EventArgs e)
         {
             wv = new Word2Vec(3);
@@ -230,7 +241,7 @@ namespace TextMachineLearning
             int indexRows = 0;
             while (!tfp.EndOfData) {
                 fields = tfp.ReadFields();
-                if (fields[SelectedClass] != "")
+                if (NotNullFields(fields))
                 {
                     if (!classlist.TryGetValue(fields[SelectedClass], out temp))
                     {
@@ -280,7 +291,13 @@ namespace TextMachineLearning
                 knn = new KNearestNeighbors(k: Int32.Parse(textBox2.Text), classes: classlist.Count,
                 inputs: IntInputsTrain, outputs: outputsTrain, distance: Distance.Euclidean);
             }
-            else {
+            else if (comboBox2.SelectedItem.ToString() == "Jaccard")
+            {
+                knn = new KNearestNeighbors(k: Int32.Parse(textBox2.Text), classes: classlist.Count,
+                inputs: IntInputsTrain, outputs: outputsTrain, distance: Jaccard);
+            }
+            else
+            {
                 knn = new KNearestNeighbors(k: Int32.Parse(textBox2.Text), classes: classlist.Count,
                 inputs: IntInputsTrain, outputs: outputsTrain, distance: Distance.Cosine);
             }
@@ -346,9 +363,10 @@ namespace TextMachineLearning
             //textBox3.Text += "   Conf. Matrix " + matrix;
 
             //textBox8.Text = "Rows " + matrixGen.Matrix.Rows();
-
-            paintMatrix(matrixGen, inverseClassList);
-           
+            if (checkBox1.Checked)
+            {
+                paintMatrix(matrixGen, inverseClassList);
+            }
             label8.Text = "-";
         }
 
@@ -488,30 +506,43 @@ namespace TextMachineLearning
             knnTxt.Text = "";
             if (comboBox2.SelectedItem.ToString() == "Levenshtein")
             {
-                var answer = knnStr.GetNearestNeighbors(tesTxt.Text, out output);
+                var answer = knnStr.GetNearestNeighbors(tesTxt.Text.ToUpper(), out output);
                 for (int i = 0; i < answer.Length; ++i) {
                     knnTxt.Text += answer[i] + "," + inverseClassList[output[i]] + Environment.NewLine;
                 }
 
-                int classInt = knnStr.Compute(tesTxt.Text);
+                int classInt = knnStr.Compute(tesTxt.Text.ToUpper());
                 label5.Text = inverseClassList[classInt];
 
             }
             else
             {
-                var answer = knn.GetNearestNeighbors(wv.transform(tesTxt.Text, comboBox4.SelectedItem.ToString()), out output);
+                var answer = knn.GetNearestNeighbors(wv.transform(tesTxt.Text.ToUpper(), comboBox4.SelectedItem.ToString()), out output);
                 for (int i = 0; i < answer.Length; ++i)
                 {
                     knnTxt.Text += wv.transformInverse(answer[i], comboBox4.SelectedItem.ToString()) + "," + inverseClassList[output[i]] + Environment.NewLine;
                 }
 
-                int classInt = knn.Compute(wv.transform(tesTxt.Text, comboBox4.SelectedItem.ToString()));
+                int classInt = knn.Compute(wv.transform(tesTxt.Text.ToUpper(), comboBox4.SelectedItem.ToString()));
                 label5.Text = inverseClassList[classInt];
                 //answer = knn.Compute(wv.transform(GetString(fields, " "), comboBox4.SelectedItem.ToString()));
             }
-
         }
 
+        
+
+        public static double Jaccard(double [] x1, double [] x2)
+        {
+            HashSet<int> hs1 = new HashSet<int>();
+            HashSet<int> hs2 = new HashSet<int>();
+
+            for (int i = 0; i < x1.Length; ++i) {
+                if (x1[i] > 0) { hs1.Add(i); }
+                if (x2[i] > 0) { hs2.Add(i); }
+            }
+
+            return ((double)hs1.Intersect(hs2).Count() / (double)hs1.Union(hs2).Count());
+        }
 
             }
 }
