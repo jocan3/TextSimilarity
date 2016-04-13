@@ -541,7 +541,7 @@ namespace TextMachineLearning
                 if (x2[i] > 0) { hs2.Add(i); }
             }
 
-            return ((double)hs1.Intersect(hs2).Count() / (double)hs1.Union(hs2).Count());
+            return (1-((double)hs1.Intersect(hs2).Count() / (double)hs1.Union(hs2).Count()));
         }
 
             }

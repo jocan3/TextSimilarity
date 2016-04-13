@@ -36,7 +36,10 @@ namespace TextMachineLearning
            // string sentenceWithoutStopWords = "";
             
             foreach (var r in result) {
-                words.Add(r);
+                if (r.Length > 1)
+                {
+                    words.Add(r);
+                }
                 //sentenceWithoutStopWords += r;
             }
             createNGrams(sentenceWithoutStopWords.Replace(" ",""));
@@ -60,7 +63,7 @@ namespace TextMachineLearning
         }
 
         public string RemoveSpecialCharacters(string str) {
-            return str.Replace("*", " ").Replace(",", " ").Replace("(", " ").Replace(")", " ").Replace("-", " ").Replace("+", " ").Replace("!", " ").Replace("?", " ").Replace(@"\", " ").Replace("/", " ").Replace("[", " ").Replace("]", " ");
+            return str.Replace("*", " ").Replace(",", " ").Replace("(", " ").Replace(")", " ").Replace("-", " ").Replace("+", " ").Replace("!", " ").Replace("?", " ").Replace(@"\", " ").Replace("/", " ").Replace("[", " ").Replace("]", " ").Replace(".", " ").Replace("|", " ").Replace("^", " ");
         }
 
         public double[] transform(string sentence, string type) {
@@ -107,7 +110,8 @@ namespace TextMachineLearning
         public double [] GetWordsVector(string sentence){
             double[] result = new double[WordsVector.Length];
             for (int i = 0; i < result.Length; ++i) {
-                result[i] = Regex.Matches(sentence, WordsVector[i]).Count;
+                result[i] = Regex.Matches(sentence, @"\b" + WordsVector[i] + @"\b").Count;
+                
             }
 
             return result;
