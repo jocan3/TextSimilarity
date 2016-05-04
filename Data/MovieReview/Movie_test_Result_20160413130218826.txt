@@ -1,0 +1,1 @@
+4/13/2016 1:02:18 PM   k: 25   Distance: Cosine   Vector: words   Number of instances: 300    Number of classes: 2   Correctly classified: 182   Wrongly classified: 118   Standard Error 0.0464521986725044   Accuracy 0.606666666666667

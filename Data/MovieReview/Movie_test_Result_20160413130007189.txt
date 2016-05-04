@@ -1,0 +1,1 @@
+4/13/2016 1:00:07 PM   k: 5   Distance: Jaccard   Vector: words   Number of instances: 300    Number of classes: 2   Correctly classified: 212   Wrongly classified: 88   Standard Error 0.0502981202233015   Accuracy 0.706666666666667

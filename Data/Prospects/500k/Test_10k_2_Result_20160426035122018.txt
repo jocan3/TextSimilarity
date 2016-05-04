@@ -1,0 +1,1 @@
+4/26/2016 3:51:22 AM   k: 51   Distance: Levenshtein   Vector: 3-grams   Number of instances: 9997    Number of classes: 176   Correctly classified: 6751   Wrongly classified: 3246   Standard Error 0.00647163861314392   Accuracy 0.675302590777233

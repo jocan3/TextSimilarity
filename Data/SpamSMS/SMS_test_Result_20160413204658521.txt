@@ -1,0 +1,1 @@
+4/13/2016 8:46:58 PM   k: 5   Distance: Cosine   Vector: 3-grams   Number of instances: 1074    Number of classes: 2   Correctly classified: 1042   Wrongly classified: 32   Standard Error 0.0241700506850542   Accuracy 0.970204841713222

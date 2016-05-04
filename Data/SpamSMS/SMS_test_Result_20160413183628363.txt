@@ -1,0 +1,1 @@
+4/13/2016 6:36:28 PM   k: 5   Distance: Jaccard   Vector: 3-grams   Number of instances: 1074    Number of classes: 2   Correctly classified: 1056   Wrongly classified: 18   Standard Error 0.0179926525971075   Accuracy 0.983240223463687

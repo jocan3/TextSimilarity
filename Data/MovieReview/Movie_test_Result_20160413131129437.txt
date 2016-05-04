@@ -1,0 +1,1 @@
+4/13/2016 1:11:29 PM   k: 5   Distance: Euclidean   Vector: 3-grams   Number of instances: 300    Number of classes: 2   Correctly classified: 174   Wrongly classified: 126   Standard Error 0.0413557282028088   Accuracy 0.58

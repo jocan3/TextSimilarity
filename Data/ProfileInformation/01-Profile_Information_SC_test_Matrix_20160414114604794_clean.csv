@@ -1,0 +1,17 @@
+,Southern Asia,Northern America,Eastern Asia,Western Asia,South-Eastern Asia,Central America,Western Europe,Northern Europe,Australia and New Zealand,Southern Europe,South America,Eastern Europe,Northern Africa,Western Africa,Southern Africa,Eastern Africa
+Southern Asia,0.01,0.01,0.98,0,0,0,0,0,0,0,0,0,0,0,0,0
+Northern America,0,0.02,0.95,0,0.01,0,0,0,0,0,0,0.01,0.01,0,0,0
+Eastern Asia,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Western Asia,0,0.01,0.98,0,0,0,0,0,0,0,0,0,0.01,0,0,0
+South-Eastern Asia,0,0,0.91,0,0.03,0,0,0,0,0,0,0,0.06,0,0,0
+Central America,0,0.01,0.97,0,0,0.01,0,0,0,0,0,0,0,0.01,0,0
+Western Europe,0,0.02,0.97,0,0,0,0,0,0,0,0,0,0.01,0,0,0
+Northern Europe,0,0.01,0.98,0,0,0,0,0,0,0,0,0.01,0,0,0,0
+Australia and New Zealand,0.01,0.01,0.97,0,0,0,0,0,0,0,0,0,0.01,0,0,0
+Southern Europe,0.01,0,0.97,0,0,0.01,0,0,0,0,0,0,0.01,0,0,0
+South America,0,0,0.99,0,0,0,0,0,0,0,0.01,0,0,0,0,0
+Eastern Europe,0,0,0.96,0,0,0,0,0,0,0,0,0.03,0.01,0,0,0
+Northern Africa,0,0,0.7,0,0,0,0,0,0,0,0,0,0.3,0,0,0
+Western Africa,0,0,0.94,0,0,0,0,0,0,0,0,0,0.03,0.03,0,0
+Southern Africa,0,0,0.99,0,0,0,0,0,0,0,0,0,0.01,0,0,0
+Eastern Africa,0,0,0.98,0,0,0,0,0,0,0,0,0.01,0,0,0,0.01
